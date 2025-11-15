@@ -448,6 +448,54 @@
         "name": "Hole",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Void.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Void",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Void2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Void2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Filled_Void.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Filled_Void.png\"}",
+        "name": "Filled_Void",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Block.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Block.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Void.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Void.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Demon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Demon.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1653,6 +1701,134 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Void",
+          "persistentUuid": "deaae838-91b8-49af-8c2c-74decce9a7a0",
+          "width": 0,
+          "x": 704,
+          "y": 352,
+          "zOrder": 614,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Void",
+          "persistentUuid": "7670030c-b966-44dc-a607-37e580496357",
+          "width": 0,
+          "x": 704,
+          "y": 368,
+          "zOrder": 615,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Void",
+          "persistentUuid": "a410b1f1-c17b-44c9-bfeb-e0205615270a",
+          "width": 0,
+          "x": 704,
+          "y": 336,
+          "zOrder": 616,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Void",
+          "persistentUuid": "56043b97-4156-4fee-b031-0c0faad8f35f",
+          "width": 0,
+          "x": 704,
+          "y": 320,
+          "zOrder": 617,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Void",
+          "persistentUuid": "46b25ed2-0b47-4b23-b9e8-d08324a82ea2",
+          "width": 0,
+          "x": 704,
+          "y": 304,
+          "zOrder": 618,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Void",
+          "persistentUuid": "11a12ed7-1127-4770-ab44-0b14dbbb77f8",
+          "width": 0,
+          "x": 704,
+          "y": 288,
+          "zOrder": 619,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Void",
+          "persistentUuid": "5fc3e503-df9c-42e8-9654-a9cb33d8df3a",
+          "width": 0,
+          "x": 704,
+          "y": 384,
+          "zOrder": 620,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Void",
+          "persistentUuid": "e0572102-8619-4c07-abbf-e9bb7766243f",
+          "width": 0,
+          "x": 704,
+          "y": 400,
+          "zOrder": 621,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -2769,107 +2945,16 @@
           ],
           "animations": [
             {
-              "name": "NewSprite",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Block",
-                      "points": [
-                        {
-                          "name": "Position",
-                          "x": 8,
-                          "y": 8
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 1
-                          },
-                          {
-                            "x": 15,
-                            "y": 1
-                          },
-                          {
-                            "x": 15,
-                            "y": 15
-                          },
-                          {
-                            "x": 1,
-                            "y": 15
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": false,
-          "assetStoreId": "",
-          "name": "Demon",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [
-            {
-              "name": "Direction",
-              "type": "string",
-              "value": "\"up\""
-            }
-          ],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Pathfinding",
-              "type": "PathfindingBehavior::PathfindingBehavior",
-              "acceleration": 400,
-              "allowDiagonals": false,
-              "angleOffset": 0,
-              "angularMaxSpeed": 180,
-              "cellHeight": 16,
-              "cellWidth": 16,
-              "extraBorder": 0,
-              "gridOffsetX": 0,
-              "gridOffsetY": 0,
-              "maxSpeed": 100,
-              "rotateObject": false,
-              "smoothingMaxCellGap": 1
-            }
-          ],
-          "animations": [
-            {
-              "name": "Ghost",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Demon",
+                      "image": "assets\\Block.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2912,6 +2997,89 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
+          "name": "Demon",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "Direction",
+              "type": "string",
+              "value": "\"up\""
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
+              "acceleration": 400,
+              "allowDiagonals": false,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "cellHeight": 16,
+              "cellWidth": 16,
+              "extraBorder": 0,
+              "gridOffsetX": 0,
+              "gridOffsetY": 0,
+              "maxSpeed": 100,
+              "rotateObject": false,
+              "smoothingMaxCellGap": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Demon.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
           "name": "Hole",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -2931,6 +3099,127 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Hole",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Void",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Void.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Filled_Void",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Filled_Void",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Filled_Void",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3060,6 +3349,12 @@
           },
           {
             "objectName": "Hole"
+          },
+          {
+            "objectName": "Void"
+          },
+          {
+            "objectName": "Filled_Void"
           }
         ]
       },
@@ -3344,7 +3639,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Block Events",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -3560,6 +3854,65 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Block",
+                        "Void",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Filled_Void",
+                        "Void.PointX(\"Origin\")",
+                        "Void.PointY(\"Origin\")",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "Filled_Void",
+                        "=",
+                        "-200"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Void",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Block",
+                        ""
+                      ]
+                    }
+                  ]
                 }
               ],
               "parameters": []
@@ -3569,6 +3922,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Player movement",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -3674,6 +4028,24 @@
                                           },
                                           "parameters": [
                                             "Collisions",
+                                            "Player.PointX(\"Center\")",
+                                            "Player.PointY(\"Center\")-Grid_Size"
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::Not"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": [
+                                        {
+                                          "type": {
+                                            "value": "CollisionPoint"
+                                          },
+                                          "parameters": [
+                                            "Void",
                                             "Player.PointX(\"Center\")",
                                             "Player.PointY(\"Center\")-Grid_Size"
                                           ]
@@ -3844,6 +4216,24 @@
                                           ]
                                         }
                                       ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::Not"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": [
+                                        {
+                                          "type": {
+                                            "value": "CollisionPoint"
+                                          },
+                                          "parameters": [
+                                            "Void",
+                                            "Player.PointX(\"Center\")",
+                                            "Player.PointY(\"Center\")+Grid_Size"
+                                          ]
+                                        }
+                                      ]
                                     }
                                   ]
                                 },
@@ -4004,6 +4394,24 @@
                                           },
                                           "parameters": [
                                             "Collisions",
+                                            "Player.PointX(\"Center\")-Grid_Size",
+                                            "Player.PointY(\"Center\")"
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::Not"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": [
+                                        {
+                                          "type": {
+                                            "value": "CollisionPoint"
+                                          },
+                                          "parameters": [
+                                            "Void",
                                             "Player.PointX(\"Center\")-Grid_Size",
                                             "Player.PointY(\"Center\")"
                                           ]
@@ -4174,6 +4582,24 @@
                                           },
                                           "parameters": [
                                             "Collisions",
+                                            "Player.PointX(\"Center\")+Grid_Size",
+                                            "Player.PointY(\"Center\")"
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::Not"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": [
+                                        {
+                                          "type": {
+                                            "value": "CollisionPoint"
+                                          },
+                                          "parameters": [
+                                            "Void",
                                             "Player.PointX(\"Center\")+Grid_Size",
                                             "Player.PointY(\"Center\")"
                                           ]
