@@ -497,7 +497,13 @@
     ]
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "Grid_Size",
+      "type": "number",
+      "value": 16
+    }
+  ],
   "layouts": [
     {
       "b": 209,
@@ -3595,6 +3601,7 @@
                   ],
                   "events": [
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -3650,7 +3657,7 @@
                                           "parameters": [
                                             "Blocks",
                                             "Player.PointX(\"Center\")",
-                                            "Player.PointY(\"Center\")-16"
+                                            "Player.PointY(\"Center\")-Grid_Size"
                                           ]
                                         }
                                       ]
@@ -3668,7 +3675,7 @@
                                           "parameters": [
                                             "Collisions",
                                             "Player.PointX(\"Center\")",
-                                            "Player.PointY(\"Center\")-16"
+                                            "Player.PointY(\"Center\")-Grid_Size"
                                           ]
                                         }
                                       ]
@@ -3688,7 +3695,7 @@
                                       "parameters": [
                                         "Blocks",
                                         "Player.PointX(\"Center\")",
-                                        "Player.PointY(\"Center\")-16"
+                                        "Player.PointY(\"Center\")-Grid_Size"
                                       ]
                                     },
                                     {
@@ -3704,7 +3711,7 @@
                                           "parameters": [
                                             "Collisions",
                                             "Player.PointX(\"Center\")",
-                                            "Player.PointY(\"Center\")-32"
+                                            "Player.PointY(\"Center\")-Grid_Size*2"
                                           ]
                                         }
                                       ]
@@ -3731,7 +3738,7 @@
                                           "parameters": [
                                             "Blocks",
                                             "Player.PointX(\"Center\")",
-                                            "Player.PointY(\"Center\")-32"
+                                            "Player.PointY(\"Center\")-Grid_Size*2"
                                           ]
                                         }
                                       ]
@@ -3751,7 +3758,7 @@
                                 "Pathfinding",
                                 "",
                                 "Player.PointX(\"Origin\")",
-                                "Player.PointY(\"Origin\")-16"
+                                "Player.PointY(\"Origin\") - Grid_Size"
                               ]
                             }
                           ]
@@ -3815,7 +3822,7 @@
                                           "parameters": [
                                             "Blocks",
                                             "Player.PointX(\"Center\")",
-                                            "Player.PointY(\"Center\")+16"
+                                            "Player.PointY(\"Center\")+Grid_Size"
                                           ]
                                         }
                                       ]
@@ -3833,7 +3840,7 @@
                                           "parameters": [
                                             "Collisions",
                                             "Player.PointX(\"Center\")",
-                                            "Player.PointY(\"Center\")+16"
+                                            "Player.PointY(\"Center\")+Grid_Size"
                                           ]
                                         }
                                       ]
@@ -3853,7 +3860,7 @@
                                       "parameters": [
                                         "Blocks",
                                         "Player.PointX(\"Center\")",
-                                        "Player.PointY(\"Center\")+16"
+                                        "Player.PointY(\"Center\")+Grid_Size"
                                       ]
                                     },
                                     {
@@ -3869,7 +3876,7 @@
                                           "parameters": [
                                             "Collisions",
                                             "Player.PointX(\"Center\")",
-                                            "Player.PointY(\"Center\")+32"
+                                            "Player.PointY(\"Center\")+Grid_Size*2"
                                           ]
                                         }
                                       ]
@@ -3896,7 +3903,7 @@
                                           "parameters": [
                                             "Blocks",
                                             "Player.PointX(\"Center\")",
-                                            "Player.PointY(\"Center\")+32"
+                                            "Player.PointY(\"Center\")+Grid_Size*2"
                                           ]
                                         }
                                       ]
@@ -3916,7 +3923,7 @@
                                 "Pathfinding",
                                 "",
                                 "Player.PointX(\"Origin\")",
-                                "Player.PointY(\"Origin\")+16"
+                                "Player.PointY(\"Origin\")+Grid_Size"
                               ]
                             }
                           ]
@@ -3979,7 +3986,7 @@
                                           },
                                           "parameters": [
                                             "Blocks",
-                                            "Player.PointX(\"Center\")-16",
+                                            "Player.PointX(\"Center\")-Grid_Size",
                                             "Player.PointY(\"Center\")"
                                           ]
                                         }
@@ -3997,7 +4004,7 @@
                                           },
                                           "parameters": [
                                             "Collisions",
-                                            "Player.PointX(\"Center\")-16",
+                                            "Player.PointX(\"Center\")-Grid_Size",
                                             "Player.PointY(\"Center\")"
                                           ]
                                         }
@@ -4017,7 +4024,7 @@
                                       },
                                       "parameters": [
                                         "Blocks",
-                                        "Player.PointX(\"Center\")-16",
+                                        "Player.PointX(\"Center\")-Grid_Size",
                                         "Player.PointY(\"Center\")"
                                       ]
                                     },
@@ -4033,7 +4040,7 @@
                                           },
                                           "parameters": [
                                             "Collisions",
-                                            "Player.PointX(\"Center\")-32",
+                                            "Player.PointX(\"Center\")-Grid_Size*2",
                                             "Player.PointY(\"Center\")"
                                           ]
                                         }
@@ -4060,7 +4067,7 @@
                                           },
                                           "parameters": [
                                             "Blocks",
-                                            "Player.PointX(\"Center\")-32",
+                                            "Player.PointX(\"Center\")-Grid_Size*2",
                                             "Player.PointY(\"Center\")"
                                           ]
                                         }
@@ -4080,7 +4087,7 @@
                                 "Player",
                                 "Pathfinding",
                                 "",
-                                "Player.PointX(\"Origin\")-16",
+                                "Player.PointX(\"Origin\")-Grid_Size",
                                 "Player.PointY(\"Origin\")"
                               ]
                             }
@@ -4149,7 +4156,7 @@
                                           },
                                           "parameters": [
                                             "Blocks",
-                                            "Player.PointX(\"Center\")+16",
+                                            "Player.PointX(\"Center\")+Grid_Size",
                                             "Player.PointY(\"Center\")"
                                           ]
                                         }
@@ -4167,7 +4174,7 @@
                                           },
                                           "parameters": [
                                             "Collisions",
-                                            "Player.PointX(\"Center\")+16",
+                                            "Player.PointX(\"Center\")+Grid_Size",
                                             "Player.PointY(\"Center\")"
                                           ]
                                         }
@@ -4187,7 +4194,7 @@
                                       },
                                       "parameters": [
                                         "Blocks",
-                                        "Player.PointX(\"Center\")+16",
+                                        "Player.PointX(\"Center\")+Grid_Size",
                                         "Player.PointY(\"Center\")"
                                       ]
                                     },
@@ -4203,7 +4210,7 @@
                                           },
                                           "parameters": [
                                             "Collisions",
-                                            "Player.PointX(\"Center\")+32",
+                                            "Player.PointX(\"Center\")+Grid_Size*2",
                                             "Player.PointY(\"Center\")"
                                           ]
                                         }
@@ -4230,7 +4237,7 @@
                                           },
                                           "parameters": [
                                             "Blocks",
-                                            "Player.PointX(\"Center\")+32",
+                                            "Player.PointX(\"Center\")+Grid_Size*2",
                                             "Player.PointY(\"Center\")"
                                           ]
                                         }
@@ -4250,7 +4257,7 @@
                                 "Player",
                                 "Pathfinding",
                                 "",
-                                "Player.PointX(\"Origin\")+16",
+                                "Player.PointX(\"Origin\")+Grid_Size",
                                 "Player.PointY(\"Origin\")"
                               ]
                             }
@@ -4439,6 +4446,7 @@
                   "actions": [],
                   "events": [
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -4471,7 +4479,7 @@
                                   "parameters": [
                                     "Block",
                                     "Demon.PointX(\"Center\")",
-                                    "Demon.PointY(\"Center\")-16"
+                                    "Demon.PointY(\"Center\")-Grid_Size"
                                   ]
                                 },
                                 {
@@ -4481,7 +4489,7 @@
                                   "parameters": [
                                     "Collisions",
                                     "Demon.PointX(\"Center\")",
-                                    "Demon.PointY(\"Center\")-16"
+                                    "Demon.PointY(\"Center\")-Grid_Size"
                                   ]
                                 }
                               ]
@@ -4517,7 +4525,7 @@
                                   "parameters": [
                                     "Block",
                                     "Demon.PointX(\"Center\")",
-                                    "Demon.PointY(\"Center\")-16"
+                                    "Demon.PointY(\"Center\")-Grid_Size"
                                   ]
                                 }
                               ]
@@ -4535,7 +4543,7 @@
                                   "parameters": [
                                     "Collisions",
                                     "Demon.PointX(\"Center\")",
-                                    "Demon.PointY(\"Center\")-16"
+                                    "Demon.PointY(\"Center\")-Grid_Size"
                                   ]
                                 }
                               ]
@@ -4551,7 +4559,7 @@
                                 "Pathfinding",
                                 "",
                                 "Demon.PointX(\"Origin\")",
-                                "Demon.PointY(\"Origin\")-16"
+                                "Demon.PointY(\"Origin\")-Grid_Size"
                               ]
                             }
                           ]
@@ -4559,6 +4567,7 @@
                       ]
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -4591,7 +4600,7 @@
                                   "parameters": [
                                     "Block",
                                     "Demon.PointX(\"Center\")",
-                                    "Demon.PointY(\"Center\")+16"
+                                    "Demon.PointY(\"Center\")+Grid_Size"
                                   ]
                                 },
                                 {
@@ -4601,7 +4610,7 @@
                                   "parameters": [
                                     "Collisions",
                                     "Demon.PointX(\"Center\")",
-                                    "Demon.PointY(\"Center\")+16"
+                                    "Demon.PointY(\"Center\")+Grid_Size"
                                   ]
                                 }
                               ]
@@ -4637,7 +4646,7 @@
                                   "parameters": [
                                     "Block",
                                     "Demon.PointX(\"Center\")",
-                                    "Demon.PointY(\"Center\")+16"
+                                    "Demon.PointY(\"Center\")+Grid_Size"
                                   ]
                                 }
                               ]
@@ -4655,7 +4664,7 @@
                                   "parameters": [
                                     "Collisions",
                                     "Demon.PointX(\"Center\")",
-                                    "Demon.PointY(\"Center\")+16"
+                                    "Demon.PointY(\"Center\")+Grid_Size"
                                   ]
                                 }
                               ]
@@ -4671,7 +4680,7 @@
                                 "Pathfinding",
                                 "",
                                 "Demon.PointX(\"Origin\")",
-                                "Demon.PointY(\"Origin\")+16"
+                                "Demon.PointY(\"Origin\")+Grid_Size"
                               ]
                             }
                           ]
