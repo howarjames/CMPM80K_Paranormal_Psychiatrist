@@ -1564,7 +1564,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Demon",
+          "name": "Entity",
           "persistentUuid": "d5d415c3-b724-4ae9-9c07-299da0b1f0cd",
           "width": 0,
           "x": 656,
@@ -1900,7 +1900,7 @@
                   "timeBetweenFrames": 0.20000000298023224,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "ACharDown1.png",
                       "points": [],
                       "originPoint": {
@@ -1914,10 +1914,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 15
+                          },
+                          {
+                            "x": 1,
+                            "y": 15
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "ACharDown2.png",
                       "points": [],
                       "originPoint": {
@@ -1931,10 +1950,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 15
+                          },
+                          {
+                            "x": 1,
+                            "y": 15
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "ACharDown3.png",
                       "points": [],
                       "originPoint": {
@@ -1948,10 +1986,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 15
+                          },
+                          {
+                            "x": 1,
+                            "y": 15
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "ACharDown4.png",
                       "points": [],
                       "originPoint": {
@@ -1965,7 +2022,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 15
+                          },
+                          {
+                            "x": 1,
+                            "y": 15
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -1980,7 +2056,7 @@
                   "timeBetweenFrames": 0.20000000298023224,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "ACgarRight1.png",
                       "points": [],
                       "originPoint": {
@@ -1994,10 +2070,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 15
+                          },
+                          {
+                            "x": 1,
+                            "y": 15
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "ACgarRight2.png",
                       "points": [],
                       "originPoint": {
@@ -2011,10 +2106,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 15
+                          },
+                          {
+                            "x": 1,
+                            "y": 15
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "ACgarRight3.png",
                       "points": [],
                       "originPoint": {
@@ -2028,10 +2142,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 15
+                          },
+                          {
+                            "x": 1,
+                            "y": 15
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "ACgarRight4.png",
                       "points": [],
                       "originPoint": {
@@ -2045,7 +2178,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 15
+                          },
+                          {
+                            "x": 1,
+                            "y": 15
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -2060,7 +2212,7 @@
                   "timeBetweenFrames": 0.20000000298023224,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "ACharLeft1.png",
                       "points": [],
                       "originPoint": {
@@ -2074,10 +2226,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 15
+                          },
+                          {
+                            "x": 1,
+                            "y": 15
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "ACharLeft2.png",
                       "points": [],
                       "originPoint": {
@@ -2091,10 +2262,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 15
+                          },
+                          {
+                            "x": 1,
+                            "y": 15
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "ACharLeft3.png",
                       "points": [],
                       "originPoint": {
@@ -2108,10 +2298,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 15
+                          },
+                          {
+                            "x": 1,
+                            "y": 15
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "ACharLeft4.png",
                       "points": [],
                       "originPoint": {
@@ -2125,7 +2334,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 15
+                          },
+                          {
+                            "x": 1,
+                            "y": 15
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -2140,7 +2368,7 @@
                   "timeBetweenFrames": 0.20000000298023224,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "ACharUp1.png",
                       "points": [],
                       "originPoint": {
@@ -2154,10 +2382,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 15
+                          },
+                          {
+                            "x": 1,
+                            "y": 15
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "ACharUp2.png",
                       "points": [],
                       "originPoint": {
@@ -2171,10 +2418,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 15
+                          },
+                          {
+                            "x": 1,
+                            "y": 15
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "ACharUp3.png",
                       "points": [],
                       "originPoint": {
@@ -2188,10 +2454,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 15
+                          },
+                          {
+                            "x": 1,
+                            "y": 15
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "ACharUp4.png",
                       "points": [],
                       "originPoint": {
@@ -2205,7 +2490,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 15
+                          },
+                          {
+                            "x": 1,
+                            "y": 15
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -3013,7 +3317,7 @@
         {
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
-          "name": "Demon",
+          "name": "Entity",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -3069,20 +3373,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 1,
-                            "y": 1
+                            "x": 0,
+                            "y": 0
                           },
                           {
-                            "x": 15,
-                            "y": 1
+                            "x": 16,
+                            "y": 0
                           },
                           {
-                            "x": 15,
-                            "y": 15
+                            "x": 16,
+                            "y": 16
                           },
                           {
-                            "x": 1,
-                            "y": 15
+                            "x": 0,
+                            "y": 16
                           }
                         ]
                       ]
@@ -3361,7 +3665,7 @@
             "objectName": "Block"
           },
           {
-            "objectName": "Demon"
+            "objectName": "Entity"
           },
           {
             "objectName": "Hole"
@@ -3987,7 +4291,7 @@
                         "value": "SetStringObjectVariable"
                       },
                       "parameters": [
-                        "Demon",
+                        "Entity",
                         "Direction",
                         "=",
                         "\"up\""
@@ -4003,7 +4307,7 @@
                         "value": "PathfindingBehavior::Speed"
                       },
                       "parameters": [
-                        "Demon",
+                        "Entity",
                         "Pathfinding",
                         "=",
                         "0"
@@ -4021,7 +4325,7 @@
                             "value": "StringObjectVariable"
                           },
                           "parameters": [
-                            "Demon",
+                            "Entity",
                             "Direction",
                             "=",
                             "\"up\""
@@ -4045,8 +4349,8 @@
                                   },
                                   "parameters": [
                                     "Block",
-                                    "Demon.PointX(\"Center\")",
-                                    "Demon.PointY(\"Center\")-Grid_Size"
+                                    "Entity.PointX(\"Center\")",
+                                    "Entity.PointY(\"Center\") - Grid_Size"
                                   ]
                                 },
                                 {
@@ -4055,8 +4359,8 @@
                                   },
                                   "parameters": [
                                     "Collisions",
-                                    "Demon.PointX(\"Center\")",
-                                    "Demon.PointY(\"Center\")-Grid_Size"
+                                    "Entity.PointX(\"Center\")",
+                                    "Entity.PointY(\"Center\") - Grid_Size"
                                   ]
                                 },
                                 {
@@ -4065,8 +4369,8 @@
                                   },
                                   "parameters": [
                                     "Void",
-                                    "Demon.PointX(\"Center\")",
-                                    "Demon.PointY(\"Center\")-Grid_Size"
+                                    "Entity.PointX(\"Center\")",
+                                    "Entity.PointY(\"Center\") - Grid_Size"
                                   ]
                                 }
                               ]
@@ -4078,7 +4382,7 @@
                                 "value": "SetStringObjectVariable"
                               },
                               "parameters": [
-                                "Demon",
+                                "Entity",
                                 "Direction",
                                 "=",
                                 "\"down\""
@@ -4101,8 +4405,8 @@
                                   },
                                   "parameters": [
                                     "Block",
-                                    "Demon.PointX(\"Center\")",
-                                    "Demon.PointY(\"Center\")-Grid_Size"
+                                    "Entity.PointX(\"Center\")",
+                                    "Entity.PointY(\"Center\") - Grid_Size"
                                   ]
                                 }
                               ]
@@ -4119,8 +4423,8 @@
                                   },
                                   "parameters": [
                                     "Collisions",
-                                    "Demon.PointX(\"Center\")",
-                                    "Demon.PointY(\"Center\")-Grid_Size"
+                                    "Entity.PointX(\"Center\")",
+                                    "Entity.PointY(\"Center\") - Grid_Size"
                                   ]
                                 }
                               ]
@@ -4137,8 +4441,8 @@
                                   },
                                   "parameters": [
                                     "Void",
-                                    "Demon.PointX(\"Center\")",
-                                    "Demon.PointY(\"Center\")-Grid_Size"
+                                    "Entity.PointX(\"Center\")",
+                                    "Entity.PointY(\"Center\") - Grid_Size"
                                   ]
                                 }
                               ]
@@ -4150,11 +4454,11 @@
                                 "value": "PathfindingBehavior::SetDestination"
                               },
                               "parameters": [
-                                "Demon",
+                                "Entity",
                                 "Pathfinding",
                                 "",
-                                "Demon.PointX(\"Origin\")",
-                                "Demon.PointY(\"Origin\")-Grid_Size"
+                                "Entity.PointX(\"Origin\")",
+                                "Entity.PointY(\"Origin\") - Grid_Size"
                               ]
                             }
                           ]
@@ -4170,7 +4474,7 @@
                             "value": "StringObjectVariable"
                           },
                           "parameters": [
-                            "Demon",
+                            "Entity",
                             "Direction",
                             "=",
                             "\"down\""
@@ -4194,8 +4498,8 @@
                                   },
                                   "parameters": [
                                     "Block",
-                                    "Demon.PointX(\"Center\")",
-                                    "Demon.PointY(\"Center\")+Grid_Size"
+                                    "Entity.PointX(\"Center\")",
+                                    "Entity.PointY(\"Center\") + Grid_Size"
                                   ]
                                 },
                                 {
@@ -4204,8 +4508,8 @@
                                   },
                                   "parameters": [
                                     "Collisions",
-                                    "Demon.PointX(\"Center\")",
-                                    "Demon.PointY(\"Center\")+Grid_Size"
+                                    "Entity.PointX(\"Center\")",
+                                    "Entity.PointY(\"Center\") + Grid_Size"
                                   ]
                                 },
                                 {
@@ -4214,8 +4518,8 @@
                                   },
                                   "parameters": [
                                     "Void",
-                                    "Demon.PointX(\"Center\")",
-                                    "Demon.PointY(\"Center\")+Grid_Size"
+                                    "Entity.PointX(\"Center\")",
+                                    "Entity.PointY(\"Center\") + Grid_Size"
                                   ]
                                 }
                               ]
@@ -4227,7 +4531,7 @@
                                 "value": "SetStringObjectVariable"
                               },
                               "parameters": [
-                                "Demon",
+                                "Entity",
                                 "Direction",
                                 "=",
                                 "\"up\""
@@ -4250,8 +4554,8 @@
                                   },
                                   "parameters": [
                                     "Block",
-                                    "Demon.PointX(\"Center\")",
-                                    "Demon.PointY(\"Center\")+Grid_Size"
+                                    "Entity.PointX(\"Center\")",
+                                    "Entity.PointY(\"Center\") + Grid_Size"
                                   ]
                                 }
                               ]
@@ -4268,8 +4572,8 @@
                                   },
                                   "parameters": [
                                     "Collisions",
-                                    "Demon.PointX(\"Center\")",
-                                    "Demon.PointY(\"Center\")+Grid_Size"
+                                    "Entity.PointX(\"Center\")",
+                                    "Entity.PointY(\"Center\") + Grid_Size"
                                   ]
                                 }
                               ]
@@ -4286,8 +4590,8 @@
                                   },
                                   "parameters": [
                                     "Void",
-                                    "Demon.PointX(\"Center\")",
-                                    "Demon.PointY(\"Center\")+Grid_Size"
+                                    "Entity.PointX(\"Center\")",
+                                    "Entity.PointY(\"Center\") + Grid_Size"
                                   ]
                                 }
                               ]
@@ -4299,11 +4603,11 @@
                                 "value": "PathfindingBehavior::SetDestination"
                               },
                               "parameters": [
-                                "Demon",
+                                "Entity",
                                 "Pathfinding",
                                 "",
-                                "Demon.PointX(\"Origin\")",
-                                "Demon.PointY(\"Origin\")+Grid_Size"
+                                "Entity.PointX(\"Origin\")",
+                                "Entity.PointY(\"Origin\") + Grid_Size"
                               ]
                             }
                           ]
@@ -4320,7 +4624,7 @@
                         "value": "CollisionNP"
                       },
                       "parameters": [
-                        "Demon",
+                        "Entity",
                         "Player",
                         "",
                         "",
@@ -4349,7 +4653,7 @@
                         "value": "CollisionNP"
                       },
                       "parameters": [
-                        "Demon",
+                        "Entity",
                         "WinMarker",
                         "",
                         "",
@@ -4439,7 +4743,6 @@
                   ],
                   "events": [
                     {
-                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -4598,6 +4901,30 @@
                                           ]
                                         }
                                       ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::Not"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": [
+                                        {
+                                          "type": {
+                                            "value": "CollisionPoint"
+                                          },
+                                          "parameters": [
+                                            "Entity",
+                                            "Player.PointX(\"Center\")",
+                                            "Player.PointY(\"Center\")-Grid_Size*2"
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::Not"
+                                      },
+                                      "parameters": []
                                     }
                                   ]
                                 }
@@ -4776,6 +5103,24 @@
                                           },
                                           "parameters": [
                                             "Blocks",
+                                            "Player.PointX(\"Center\")",
+                                            "Player.PointY(\"Center\")+Grid_Size*2"
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::Not"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": [
+                                        {
+                                          "type": {
+                                            "value": "CollisionPoint"
+                                          },
+                                          "parameters": [
+                                            "Entity",
                                             "Player.PointX(\"Center\")",
                                             "Player.PointY(\"Center\")+Grid_Size*2"
                                           ]
@@ -4964,6 +5309,24 @@
                                           ]
                                         }
                                       ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::Not"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": [
+                                        {
+                                          "type": {
+                                            "value": "CollisionPoint"
+                                          },
+                                          "parameters": [
+                                            "Entity",
+                                            "Player.PointX(\"Center\")-Grid_Size*2",
+                                            "Player.PointY(\"Center\")"
+                                          ]
+                                        }
+                                      ]
                                     }
                                   ]
                                 }
@@ -5147,6 +5510,24 @@
                                           },
                                           "parameters": [
                                             "Blocks",
+                                            "Player.PointX(\"Center\")+Grid_Size*2",
+                                            "Player.PointY(\"Center\")"
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::Not"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": [
+                                        {
+                                          "type": {
+                                            "value": "CollisionPoint"
+                                          },
+                                          "parameters": [
+                                            "Entity",
                                             "Player.PointX(\"Center\")+Grid_Size*2",
                                             "Player.PointY(\"Center\")"
                                           ]
