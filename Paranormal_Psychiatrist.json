@@ -1829,6 +1829,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Void",
+          "persistentUuid": "7c04cdc3-c223-4b72-bf37-cb740c7d0739",
+          "width": 0,
+          "x": 656,
+          "y": 352,
+          "zOrder": 622,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -2995,7 +3011,7 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Demon",
           "type": "Sprite",
@@ -3053,20 +3069,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 1,
+                            "y": 1
                           },
                           {
-                            "x": 16,
-                            "y": 0
+                            "x": 15,
+                            "y": 1
                           },
                           {
-                            "x": 16,
-                            "y": 16
+                            "x": 15,
+                            "y": 15
                           },
                           {
-                            "x": 0,
-                            "y": 16
+                            "x": 1,
+                            "y": 15
                           }
                         ]
                       ]
@@ -3476,6 +3492,32 @@
               ]
             },
             {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "Player",
+                    "\"r\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Overworld\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
               "colorB": 228,
               "colorG": 176,
               "colorR": 74,
@@ -3639,6 +3681,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Block Events",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -3891,7 +3934,7 @@
                       "parameters": [
                         "Filled_Void",
                         "=",
-                        "-200"
+                        "-50"
                       ]
                     },
                     {
@@ -3922,7 +3965,448 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
+              "name": "Entity Events",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "DepartScene"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringObjectVariable"
+                      },
+                      "parameters": [
+                        "Demon",
+                        "Direction",
+                        "=",
+                        "\"up\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PathfindingBehavior::Speed"
+                      },
+                      "parameters": [
+                        "Demon",
+                        "Pathfinding",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "folded": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringObjectVariable"
+                          },
+                          "parameters": [
+                            "Demon",
+                            "Direction",
+                            "=",
+                            "\"up\""
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Or"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "CollisionPoint"
+                                  },
+                                  "parameters": [
+                                    "Block",
+                                    "Demon.PointX(\"Center\")",
+                                    "Demon.PointY(\"Center\")-Grid_Size"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "CollisionPoint"
+                                  },
+                                  "parameters": [
+                                    "Collisions",
+                                    "Demon.PointX(\"Center\")",
+                                    "Demon.PointY(\"Center\")-Grid_Size"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "CollisionPoint"
+                                  },
+                                  "parameters": [
+                                    "Void",
+                                    "Demon.PointX(\"Center\")",
+                                    "Demon.PointY(\"Center\")-Grid_Size"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "Demon",
+                                "Direction",
+                                "=",
+                                "\"down\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Not"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "CollisionPoint"
+                                  },
+                                  "parameters": [
+                                    "Block",
+                                    "Demon.PointX(\"Center\")",
+                                    "Demon.PointY(\"Center\")-Grid_Size"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Not"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "CollisionPoint"
+                                  },
+                                  "parameters": [
+                                    "Collisions",
+                                    "Demon.PointX(\"Center\")",
+                                    "Demon.PointY(\"Center\")-Grid_Size"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Not"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "CollisionPoint"
+                                  },
+                                  "parameters": [
+                                    "Void",
+                                    "Demon.PointX(\"Center\")",
+                                    "Demon.PointY(\"Center\")-Grid_Size"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PathfindingBehavior::SetDestination"
+                              },
+                              "parameters": [
+                                "Demon",
+                                "Pathfinding",
+                                "",
+                                "Demon.PointX(\"Origin\")",
+                                "Demon.PointY(\"Origin\")-Grid_Size"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "folded": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringObjectVariable"
+                          },
+                          "parameters": [
+                            "Demon",
+                            "Direction",
+                            "=",
+                            "\"down\""
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Or"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "CollisionPoint"
+                                  },
+                                  "parameters": [
+                                    "Block",
+                                    "Demon.PointX(\"Center\")",
+                                    "Demon.PointY(\"Center\")+Grid_Size"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "CollisionPoint"
+                                  },
+                                  "parameters": [
+                                    "Collisions",
+                                    "Demon.PointX(\"Center\")",
+                                    "Demon.PointY(\"Center\")+Grid_Size"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "CollisionPoint"
+                                  },
+                                  "parameters": [
+                                    "Void",
+                                    "Demon.PointX(\"Center\")",
+                                    "Demon.PointY(\"Center\")+Grid_Size"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "Demon",
+                                "Direction",
+                                "=",
+                                "\"up\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Not"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "CollisionPoint"
+                                  },
+                                  "parameters": [
+                                    "Block",
+                                    "Demon.PointX(\"Center\")",
+                                    "Demon.PointY(\"Center\")+Grid_Size"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Not"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "CollisionPoint"
+                                  },
+                                  "parameters": [
+                                    "Collisions",
+                                    "Demon.PointX(\"Center\")",
+                                    "Demon.PointY(\"Center\")+Grid_Size"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Not"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "CollisionPoint"
+                                  },
+                                  "parameters": [
+                                    "Void",
+                                    "Demon.PointX(\"Center\")",
+                                    "Demon.PointY(\"Center\")+Grid_Size"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PathfindingBehavior::SetDestination"
+                              },
+                              "parameters": [
+                                "Demon",
+                                "Pathfinding",
+                                "",
+                                "Demon.PointX(\"Origin\")",
+                                "Demon.PointY(\"Origin\")+Grid_Size"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Demon",
+                        "Player",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"EndScreen\"",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Demon",
+                        "WinMarker",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+                      },
+                      "parameters": [
+                        "Transition",
+                        "FlashTransitionPainter",
+                        "\"0;0;0\"",
+                        "1",
+                        "\"Circular\"",
+                        "\"Forward\"",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"EndScreen\"",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
               "name": "Player movement",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -4734,12 +5218,12 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "End screen",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
+                  "disabled": true,
                   "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
@@ -4804,363 +5288,6 @@
                         "1"
                       ]
                     },
-                    {
-                      "type": {
-                        "value": "Scene"
-                      },
-                      "parameters": [
-                        "",
-                        "\"EndScreen\"",
-                        ""
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": []
-            },
-            {
-              "colorB": 228,
-              "colorG": 176,
-              "colorR": 74,
-              "creationTime": 0,
-              "name": "Entity Events",
-              "source": "",
-              "type": "BuiltinCommonInstructions::Group",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "DepartScene"
-                      },
-                      "parameters": [
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetStringObjectVariable"
-                      },
-                      "parameters": [
-                        "Demon",
-                        "Direction",
-                        "=",
-                        "\"up\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "PathfindingBehavior::Speed"
-                      },
-                      "parameters": [
-                        "Demon",
-                        "Pathfinding",
-                        "=",
-                        "0"
-                      ]
-                    }
-                  ],
-                  "actions": [],
-                  "events": [
-                    {
-                      "folded": true,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "StringObjectVariable"
-                          },
-                          "parameters": [
-                            "Demon",
-                            "Direction",
-                            "=",
-                            "\"up\""
-                          ]
-                        }
-                      ],
-                      "actions": [],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::Or"
-                              },
-                              "parameters": [],
-                              "subInstructions": [
-                                {
-                                  "type": {
-                                    "value": "CollisionPoint"
-                                  },
-                                  "parameters": [
-                                    "Block",
-                                    "Demon.PointX(\"Center\")",
-                                    "Demon.PointY(\"Center\")-Grid_Size"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "CollisionPoint"
-                                  },
-                                  "parameters": [
-                                    "Collisions",
-                                    "Demon.PointX(\"Center\")",
-                                    "Demon.PointY(\"Center\")-Grid_Size"
-                                  ]
-                                }
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "SetStringObjectVariable"
-                              },
-                              "parameters": [
-                                "Demon",
-                                "Direction",
-                                "=",
-                                "\"down\""
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::Not"
-                              },
-                              "parameters": [],
-                              "subInstructions": [
-                                {
-                                  "type": {
-                                    "value": "CollisionPoint"
-                                  },
-                                  "parameters": [
-                                    "Block",
-                                    "Demon.PointX(\"Center\")",
-                                    "Demon.PointY(\"Center\")-Grid_Size"
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::Not"
-                              },
-                              "parameters": [],
-                              "subInstructions": [
-                                {
-                                  "type": {
-                                    "value": "CollisionPoint"
-                                  },
-                                  "parameters": [
-                                    "Collisions",
-                                    "Demon.PointX(\"Center\")",
-                                    "Demon.PointY(\"Center\")-Grid_Size"
-                                  ]
-                                }
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "PathfindingBehavior::SetDestination"
-                              },
-                              "parameters": [
-                                "Demon",
-                                "Pathfinding",
-                                "",
-                                "Demon.PointX(\"Origin\")",
-                                "Demon.PointY(\"Origin\")-Grid_Size"
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "folded": true,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "StringObjectVariable"
-                          },
-                          "parameters": [
-                            "Demon",
-                            "Direction",
-                            "=",
-                            "\"down\""
-                          ]
-                        }
-                      ],
-                      "actions": [],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::Or"
-                              },
-                              "parameters": [],
-                              "subInstructions": [
-                                {
-                                  "type": {
-                                    "value": "CollisionPoint"
-                                  },
-                                  "parameters": [
-                                    "Block",
-                                    "Demon.PointX(\"Center\")",
-                                    "Demon.PointY(\"Center\")+Grid_Size"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "CollisionPoint"
-                                  },
-                                  "parameters": [
-                                    "Collisions",
-                                    "Demon.PointX(\"Center\")",
-                                    "Demon.PointY(\"Center\")+Grid_Size"
-                                  ]
-                                }
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "SetStringObjectVariable"
-                              },
-                              "parameters": [
-                                "Demon",
-                                "Direction",
-                                "=",
-                                "\"up\""
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::Not"
-                              },
-                              "parameters": [],
-                              "subInstructions": [
-                                {
-                                  "type": {
-                                    "value": "CollisionPoint"
-                                  },
-                                  "parameters": [
-                                    "Block",
-                                    "Demon.PointX(\"Center\")",
-                                    "Demon.PointY(\"Center\")+Grid_Size"
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::Not"
-                              },
-                              "parameters": [],
-                              "subInstructions": [
-                                {
-                                  "type": {
-                                    "value": "CollisionPoint"
-                                  },
-                                  "parameters": [
-                                    "Collisions",
-                                    "Demon.PointX(\"Center\")",
-                                    "Demon.PointY(\"Center\")+Grid_Size"
-                                  ]
-                                }
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "PathfindingBehavior::SetDestination"
-                              },
-                              "parameters": [
-                                "Demon",
-                                "Pathfinding",
-                                "",
-                                "Demon.PointX(\"Origin\")",
-                                "Demon.PointY(\"Origin\")+Grid_Size"
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "Demon",
-                        "Player",
-                        "",
-                        "",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Scene"
-                      },
-                      "parameters": [
-                        "",
-                        "\"EndScreen\"",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "Demon",
-                        "WinMarker",
-                        "",
-                        "",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
                     {
                       "type": {
                         "value": "Scene"
