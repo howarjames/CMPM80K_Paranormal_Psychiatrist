@@ -514,6 +514,36 @@
         "name": "Demon_Green",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "Boulder_Move.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Boulder_Move.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Boulder_Move2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Boulder_Move2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Boulder_Drop.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Boulder_Drop.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -4903,6 +4933,18 @@
                         "Blocks.PointX(\"Origin\")",
                         "Blocks.PointY(\"Origin\")-16"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Boulder_Move.wav",
+                        "",
+                        "",
+                        ""
+                      ]
                     }
                   ]
                 },
@@ -4915,7 +4957,7 @@
                       },
                       "parameters": [
                         "Player",
-                        "Block",
+                        "Blocks",
                         "",
                         "",
                         ""
@@ -4937,7 +4979,7 @@
                         "value": "PathfindingBehavior::Speed"
                       },
                       "parameters": [
-                        "Block",
+                        "Blocks",
                         "Pathfinding",
                         "=",
                         "0"
@@ -4950,11 +4992,23 @@
                         "value": "PathfindingBehavior::SetDestination"
                       },
                       "parameters": [
-                        "Block",
+                        "Blocks",
                         "Pathfinding",
                         "",
-                        "Block.PointX(\"Origin\")",
-                        "Block.PointY(\"Origin\")+16"
+                        "Blocks.PointX(\"Origin\")",
+                        "Blocks.PointY(\"Origin\")+16"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Boulder_Move.wav",
+                        "",
+                        "",
+                        ""
                       ]
                     }
                   ]
@@ -4968,7 +5022,7 @@
                       },
                       "parameters": [
                         "Player",
-                        "Block",
+                        "Blocks",
                         "",
                         "",
                         ""
@@ -4990,7 +5044,7 @@
                         "value": "PathfindingBehavior::Speed"
                       },
                       "parameters": [
-                        "Block",
+                        "Blocks",
                         "Pathfinding",
                         "=",
                         "0"
@@ -5003,11 +5057,23 @@
                         "value": "PathfindingBehavior::SetDestination"
                       },
                       "parameters": [
-                        "Block",
+                        "Blocks",
                         "Pathfinding",
                         "",
-                        "Block.PointX(\"Origin\")-16",
-                        "Block.PointY(\"Origin\")"
+                        "Blocks.PointX(\"Origin\")-16",
+                        "Blocks.PointY(\"Origin\")"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Boulder_Move.wav",
+                        "",
+                        "",
+                        ""
                       ]
                     }
                   ]
@@ -5021,7 +5087,7 @@
                       },
                       "parameters": [
                         "Player",
-                        "Block",
+                        "Blocks",
                         "",
                         "",
                         ""
@@ -5043,7 +5109,7 @@
                         "value": "PathfindingBehavior::Speed"
                       },
                       "parameters": [
-                        "Block",
+                        "Blocks",
                         "Pathfinding",
                         "=",
                         "0"
@@ -5056,11 +5122,23 @@
                         "value": "PathfindingBehavior::SetDestination"
                       },
                       "parameters": [
-                        "Block",
+                        "Blocks",
                         "Pathfinding",
                         "",
-                        "Block.PointX(\"Origin\")+16",
-                        "Block.PointY(\"Origin\")"
+                        "Blocks.PointX(\"Origin\")+16",
+                        "Blocks.PointY(\"Origin\")"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Boulder_Move.wav",
+                        "",
+                        "",
+                        ""
                       ]
                     }
                   ]
@@ -5073,7 +5151,7 @@
                         "value": "CollisionNP"
                       },
                       "parameters": [
-                        "Block",
+                        "Blocks",
                         "Void",
                         "",
                         "",
@@ -5118,7 +5196,19 @@
                         "value": "Delete"
                       },
                       "parameters": [
-                        "Block",
+                        "Blocks",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Boulder_Drop.wav",
+                        "",
+                        "",
                         ""
                       ]
                     }
@@ -5180,7 +5270,6 @@
                   "actions": [],
                   "events": [
                     {
-                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -5249,17 +5338,6 @@
                                 "Direction",
                                 "=",
                                 "\"down\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                              },
-                              "parameters": [
-                                "Entity",
-                                "Animation",
-                                "=",
-                                "\"Demon_blue\""
                               ]
                             }
                           ]
@@ -5418,7 +5496,6 @@
                       ]
                     },
                     {
-                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -5488,17 +5565,6 @@
                                 "=",
                                 "\"up\""
                               ]
-                            },
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                              },
-                              "parameters": [
-                                "Entity",
-                                "Animation",
-                                "=",
-                                "\"Demon_red\""
-                              ]
                             }
                           ]
                         },
@@ -5537,17 +5603,6 @@
                                 "Direction",
                                 "=",
                                 "\"left\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                              },
-                              "parameters": [
-                                "Entity",
-                                "Animation",
-                                "=",
-                                "\"Demon_green\""
                               ]
                             }
                           ]
@@ -5588,17 +5643,6 @@
                                 "=",
                                 "\"right\""
                               ]
-                            },
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                              },
-                              "parameters": [
-                                "Entity",
-                                "Animation",
-                                "=",
-                                "\"Demon_green\""
-                              ]
                             }
                           ]
                         },
@@ -5616,7 +5660,7 @@
                                     "value": "CollisionPoint"
                                   },
                                   "parameters": [
-                                    "Block",
+                                    "Blocks",
                                     "Entity.PointX(\"Center\")",
                                     "Entity.PointY(\"Center\") + Grid_Size"
                                   ]
@@ -5747,16 +5791,83 @@
                                 "=",
                                 "\"right\""
                               ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "CollisionPoint"
+                              },
+                              "parameters": [
+                                "Turn_Block",
+                                "Entity.PointX(\"Center\") - Grid_Size",
+                                "Entity.PointY(\"Center\")"
+                              ]
                             },
                             {
                               "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                "value": "AnimatableCapability::AnimatableBehavior::Name"
+                              },
+                              "parameters": [
+                                "Turn_Block",
+                                "Animation",
+                                "=",
+                                "\"ccw\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
                               },
                               "parameters": [
                                 "Entity",
+                                "Direction",
+                                "=",
+                                "\"up\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "CollisionPoint"
+                              },
+                              "parameters": [
+                                "Turn_Block",
+                                "Entity.PointX(\"Center\") - Grid_Size",
+                                "Entity.PointY(\"Center\")"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Name"
+                              },
+                              "parameters": [
+                                "Turn_Block",
                                 "Animation",
                                 "=",
-                                "\"Demon_green\""
+                                "\"cw\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "Entity",
+                                "Direction",
+                                "=",
+                                "\"down\""
                               ]
                             }
                           ]
@@ -5775,7 +5886,7 @@
                                     "value": "CollisionPoint"
                                   },
                                   "parameters": [
-                                    "Block",
+                                    "Blocks",
                                     "Entity.PointX(\"Center\") - Grid_Size",
                                     "Entity.PointY(\"Center\")"
                                   ]
@@ -5906,16 +6017,83 @@
                                 "=",
                                 "\"left\""
                               ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "CollisionPoint"
+                              },
+                              "parameters": [
+                                "Turn_Block",
+                                "Entity.PointX(\"Center\") + Grid_Size",
+                                "Entity.PointY(\"Center\")"
+                              ]
                             },
                             {
                               "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                "value": "AnimatableCapability::AnimatableBehavior::Name"
+                              },
+                              "parameters": [
+                                "Turn_Block",
+                                "Animation",
+                                "=",
+                                "\"ccw\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
                               },
                               "parameters": [
                                 "Entity",
+                                "Direction",
+                                "=",
+                                "\"down\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "CollisionPoint"
+                              },
+                              "parameters": [
+                                "Turn_Block",
+                                "Entity.PointX(\"Center\") + Grid_Size",
+                                "Entity.PointY(\"Center\")"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Name"
+                              },
+                              "parameters": [
+                                "Turn_Block",
                                 "Animation",
                                 "=",
-                                "\"Demon_green\""
+                                "\"cw\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "Entity",
+                                "Direction",
+                                "=",
+                                "\"up\""
                               ]
                             }
                           ]
@@ -5934,7 +6112,7 @@
                                     "value": "CollisionPoint"
                                   },
                                   "parameters": [
-                                    "Block",
+                                    "Blocks",
                                     "Entity.PointX(\"Center\") + Grid_Size",
                                     "Entity.PointY(\"Center\")"
                                   ]
