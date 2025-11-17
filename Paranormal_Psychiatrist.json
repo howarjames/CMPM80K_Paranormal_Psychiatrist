@@ -412,56 +412,10 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite2.png\"}",
-        "name": "Block",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Run_05.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "b6d0ecf01c55957086bfd2b1babf9560c13b37ea3353a9a1659c928be9576310_Run_05.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/SoundEffects/Nox Footsteps/DirtyGround/Run/b6d0ecf01c55957086bfd2b1babf9560c13b37ea3353a9a1659c928be9576310_Run_05.wav",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "file": "assets/NewSprite3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Demon",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "assets/NewSprite5.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Hole",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Void.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Void",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Void2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Void2",
         "smoothed": false,
         "userAdded": false
       },
@@ -494,6 +448,22 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\Demon.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Turn_Block2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Turn_Block2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/clockwise.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "clockwise",
         "smoothed": false,
         "userAdded": false
       }
@@ -556,8 +526,8 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Overworld",
-      "name": "Overworld",
+      "mangledName": "Test_32Area",
+      "name": "Test Area",
       "r": 209,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -573,7 +543,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 1.539004000068265,
+        "zoomFactor": 1.3038404810405642,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -1516,22 +1486,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Void",
-          "persistentUuid": "7c04cdc3-c223-4b72-bf37-cb740c7d0739",
-          "width": 0,
-          "x": 656,
-          "y": 336,
-          "zOrder": 622,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 1,
           "height": 16,
@@ -1591,38 +1545,6 @@
           "x": 672,
           "y": 416,
           "zOrder": 627,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Void",
-          "persistentUuid": "266898b8-b0e7-47ea-ae3b-9adeac2ff498",
-          "width": 0,
-          "x": 656,
-          "y": 368,
-          "zOrder": 629,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Void",
-          "persistentUuid": "9c956221-fe2a-4b4b-9713-f98527a7b533",
-          "width": 0,
-          "x": 656,
-          "y": 400,
-          "zOrder": 630,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2087,7 +2009,7 @@
           "width": 0,
           "x": 832,
           "y": 334,
-          "zOrder": 22,
+          "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2102,7 +2024,7 @@
           "width": 0,
           "x": 832,
           "y": 350,
-          "zOrder": 22,
+          "zOrder": 24,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2117,7 +2039,7 @@
           "width": 0,
           "x": 832,
           "y": 363,
-          "zOrder": 22,
+          "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2132,7 +2054,7 @@
           "width": 0,
           "x": 832,
           "y": 382,
-          "zOrder": 22,
+          "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2147,7 +2069,7 @@
           "width": 0,
           "x": 832,
           "y": 398,
-          "zOrder": 22,
+          "zOrder": 27,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2162,7 +2084,7 @@
           "width": 0,
           "x": 832,
           "y": 411,
-          "zOrder": 22,
+          "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2177,7 +2099,7 @@
           "width": 0,
           "x": 832,
           "y": 427,
-          "zOrder": 22,
+          "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2192,7 +2114,7 @@
           "width": 0,
           "x": 832,
           "y": 443,
-          "zOrder": 22,
+          "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2267,7 +2189,7 @@
           "width": 0,
           "x": 832,
           "y": 459,
-          "zOrder": 30,
+          "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2396,6 +2318,86 @@
           "x": 808,
           "y": 444,
           "zOrder": 648,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Void",
+          "persistentUuid": "ac798fff-6158-450c-be7b-8104d34f9538",
+          "width": 0,
+          "x": 656,
+          "y": 368,
+          "zOrder": 650,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Void",
+          "persistentUuid": "e38c6bdb-ff7a-493b-822b-98c016c57ec5",
+          "width": 0,
+          "x": 656,
+          "y": 400,
+          "zOrder": 651,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Void",
+          "persistentUuid": "ed2dfa17-a31a-443a-8109-f8b3b03c0450",
+          "width": 0,
+          "x": 656,
+          "y": 336,
+          "zOrder": 652,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Turn_Block",
+          "persistentUuid": "55f9895d-1f99-45ba-b1f0-e6d9121fd13b",
+          "width": 0,
+          "x": 560,
+          "y": 336,
+          "zOrder": 653,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Entity",
+          "persistentUuid": "46ec0191-d130-48a1-a9e9-3a78c43c9a44",
+          "width": 0,
+          "x": 560,
+          "y": 304,
+          "zOrder": 654,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4132,14 +4134,138 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Turn_Block",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
+              "acceleration": 1000,
+              "allowDiagonals": false,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "cellHeight": 16,
+              "cellWidth": 16,
+              "extraBorder": 0,
+              "gridOffsetX": 0,
+              "gridOffsetY": 0,
+              "maxSpeed": 100,
+              "rotateObject": false,
+              "smoothingMaxCellGap": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "counterclockwise",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Turn_Block2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 15
+                          },
+                          {
+                            "x": 1,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "clockwise",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "clockwise",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 15
+                          },
+                          {
+                            "x": 1,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
-          {
-            "objectName": "Player"
-          },
           {
             "objectName": "ChevronArrowUp"
           },
@@ -4216,7 +4342,16 @@
             ]
           },
           {
+            "folderName": "Blocks"
+          },
+          {
+            "objectName": "Player"
+          },
+          {
             "objectName": "Block"
+          },
+          {
+            "objectName": "Turn_Block"
           },
           {
             "objectName": "Entity"
@@ -4369,7 +4504,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Overworld\"",
+                    "\"Test Area\"",
                     ""
                   ]
                 }
@@ -4823,7 +4958,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Entity Events",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -5266,7 +5400,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Player movement",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -5299,6 +5432,7 @@
                   ],
                   "events": [
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -5466,6 +5600,15 @@
                                       "subInstructions": [
                                         {
                                           "type": {
+                                            "value": "AjoutObjConcern"
+                                          },
+                                          "parameters": [
+                                            "",
+                                            "Entity"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
                                             "value": "CollisionPoint"
                                           },
                                           "parameters": [
@@ -5480,7 +5623,28 @@
                                       "type": {
                                         "value": "BuiltinCommonInstructions::Not"
                                       },
-                                      "parameters": []
+                                      "parameters": [],
+                                      "subInstructions": [
+                                        {
+                                          "type": {
+                                            "value": "AjoutObjConcern"
+                                          },
+                                          "parameters": [
+                                            "",
+                                            "Entity"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "CollisionPoint"
+                                          },
+                                          "parameters": [
+                                            "Entity",
+                                            "Player.PointX(\"Center\")",
+                                            "Player.PointY(\"Center\")-Grid_Size*3"
+                                          ]
+                                        }
+                                      ]
                                     }
                                   ]
                                 }
@@ -5673,12 +5837,48 @@
                                       "subInstructions": [
                                         {
                                           "type": {
+                                            "value": "AjoutObjConcern"
+                                          },
+                                          "parameters": [
+                                            "",
+                                            "Entity"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
                                             "value": "CollisionPoint"
                                           },
                                           "parameters": [
                                             "Entity",
                                             "Player.PointX(\"Center\")",
                                             "Player.PointY(\"Center\")+Grid_Size*2"
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::Not"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": [
+                                        {
+                                          "type": {
+                                            "value": "AjoutObjConcern"
+                                          },
+                                          "parameters": [
+                                            "",
+                                            "Entity"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "CollisionPoint"
+                                          },
+                                          "parameters": [
+                                            "Entity",
+                                            "Player.PointX(\"Center\")",
+                                            "Player.PointY(\"Center\")+Grid_Size*3"
                                           ]
                                         }
                                       ]
@@ -5874,11 +6074,47 @@
                                       "subInstructions": [
                                         {
                                           "type": {
+                                            "value": "AjoutObjConcern"
+                                          },
+                                          "parameters": [
+                                            "",
+                                            "Entity"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
                                             "value": "CollisionPoint"
                                           },
                                           "parameters": [
                                             "Entity",
                                             "Player.PointX(\"Center\")-Grid_Size*2",
+                                            "Player.PointY(\"Center\")"
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::Not"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": [
+                                        {
+                                          "type": {
+                                            "value": "AjoutObjConcern"
+                                          },
+                                          "parameters": [
+                                            "",
+                                            "Entity"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "CollisionPoint"
+                                          },
+                                          "parameters": [
+                                            "Entity",
+                                            "Player.PointX(\"Center\")-Grid_Size*3",
                                             "Player.PointY(\"Center\")"
                                           ]
                                         }
@@ -6080,11 +6316,47 @@
                                       "subInstructions": [
                                         {
                                           "type": {
+                                            "value": "AjoutObjConcern"
+                                          },
+                                          "parameters": [
+                                            "",
+                                            "Entity"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
                                             "value": "CollisionPoint"
                                           },
                                           "parameters": [
                                             "Entity",
                                             "Player.PointX(\"Center\")+Grid_Size*2",
+                                            "Player.PointY(\"Center\")"
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::Not"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": [
+                                        {
+                                          "type": {
+                                            "value": "AjoutObjConcern"
+                                          },
+                                          "parameters": [
+                                            "",
+                                            "Entity"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "CollisionPoint"
+                                          },
+                                          "parameters": [
+                                            "Entity",
+                                            "Player.PointX(\"Center\")+Grid_Size*3",
                                             "Player.PointY(\"Center\")"
                                           ]
                                         }
@@ -6337,7 +6609,7 @@
           "isLocked": false,
           "name": "Collision",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": []
         },
@@ -6417,8 +6689,8 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Puzzle_321",
-      "name": "Puzzle 1",
+      "mangledName": "Puzzle_321_32_40do_32not_32make_32changes_32here_41",
+      "name": "Puzzle 1 (do not make changes here)",
       "r": 209,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -10231,7 +10503,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Overworld\"",
+                    "\"Test Area\"",
                     ""
                   ]
                 }
