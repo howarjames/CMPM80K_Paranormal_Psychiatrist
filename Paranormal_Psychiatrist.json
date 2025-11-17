@@ -446,7 +446,7 @@
       {
         "file": "assets/Demon.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Demon.png\",\"extension\":\".png\"}",
         "name": "assets\\Demon.png",
         "smoothed": false,
         "userAdded": false
@@ -464,6 +464,54 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "clockwise",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Turn_Block_ccw.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Turn_Block_ccw.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Turn_Block_cw.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Turn_Block_cw.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hole.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Hole.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Demon_blue.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Demon_blue",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Demon_blue2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Demon_blue2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Demon_Green.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Demon_Green",
         "smoothed": false,
         "userAdded": false
       }
@@ -584,6 +632,9 @@
           "objects": [
             {
               "name": "Block"
+            },
+            {
+              "name": "Turn_Block"
             }
           ]
         }
@@ -1207,22 +1258,6 @@
           "x": 680,
           "y": 380,
           "zOrder": 603,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Entity",
-          "persistentUuid": "d5d415c3-b724-4ae9-9c07-299da0b1f0cd",
-          "width": 0,
-          "x": 656,
-          "y": 304,
-          "zOrder": 605,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2399,6 +2434,48 @@
           "y": 304,
           "zOrder": 654,
           "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Turn_Block",
+          "persistentUuid": "8a839e38-0017-4993-8190-4de482b5495d",
+          "width": 0,
+          "x": 768,
+          "y": 336,
+          "zOrder": 655,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Turn_Block",
+          "persistentUuid": "2c29b4f6-735e-4d8b-86d0-fe1cbc9f3ad2",
+          "width": 0,
+          "x": 752,
+          "y": 400,
+          "zOrder": 656,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
           "stringProperties": [],
           "initialVariables": []
         }
@@ -3904,7 +3981,7 @@
           ],
           "animations": [
             {
-              "name": "",
+              "name": "Demon_red",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -3914,6 +3991,104 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets\\Demon.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Demon_blue",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Demon_blue2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Demon_green",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Demon_Green",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3964,7 +4139,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "NewSprite",
+              "name": "Hole",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -3974,7 +4149,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Hole",
+                      "image": "assets\\Hole.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4163,7 +4338,7 @@
           ],
           "animations": [
             {
-              "name": "counterclockwise",
+              "name": "ccw",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -4173,7 +4348,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Turn_Block2",
+                      "image": "assets\\Turn_Block_ccw.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4212,7 +4387,7 @@
               ]
             },
             {
-              "name": "clockwise",
+              "name": "cw",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -4222,7 +4397,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "clockwise",
+                      "image": "assets\\Turn_Block_cw.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4674,7 +4849,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Block Events",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -4688,7 +4862,7 @@
                       },
                       "parameters": [
                         "Player",
-                        "Block",
+                        "Blocks",
                         "",
                         "",
                         ""
@@ -4710,7 +4884,7 @@
                         "value": "PathfindingBehavior::Speed"
                       },
                       "parameters": [
-                        "Block",
+                        "Blocks",
                         "Pathfinding",
                         "=",
                         "0"
@@ -4723,11 +4897,11 @@
                         "value": "PathfindingBehavior::SetDestination"
                       },
                       "parameters": [
-                        "Block",
+                        "Blocks",
                         "Pathfinding",
                         "",
-                        "Block.PointX(\"Origin\")",
-                        "Block.PointY(\"Origin\")-16"
+                        "Blocks.PointX(\"Origin\")",
+                        "Blocks.PointY(\"Origin\")-16"
                       ]
                     }
                   ]
@@ -5076,6 +5250,95 @@
                                 "=",
                                 "\"down\""
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "Entity",
+                                "Animation",
+                                "=",
+                                "\"Demon_blue\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "CollisionPoint"
+                              },
+                              "parameters": [
+                                "Turn_Block",
+                                "Entity.PointX(\"Center\")",
+                                "Entity.PointY(\"Center\") - Grid_Size"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Name"
+                              },
+                              "parameters": [
+                                "Turn_Block",
+                                "Animation",
+                                "=",
+                                "\"ccw\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "Entity",
+                                "Direction",
+                                "=",
+                                "\"right\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "CollisionPoint"
+                              },
+                              "parameters": [
+                                "Turn_Block",
+                                "Entity.PointX(\"Center\")",
+                                "Entity.PointY(\"Center\") - Grid_Size"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Name"
+                              },
+                              "parameters": [
+                                "Turn_Block",
+                                "Animation",
+                                "=",
+                                "\"cw\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "Entity",
+                                "Direction",
+                                "=",
+                                "\"left\""
+                              ]
                             }
                           ]
                         },
@@ -5093,7 +5356,7 @@
                                     "value": "CollisionPoint"
                                   },
                                   "parameters": [
-                                    "Block",
+                                    "Blocks",
                                     "Entity.PointX(\"Center\")",
                                     "Entity.PointY(\"Center\") - Grid_Size"
                                   ]
@@ -5225,6 +5488,117 @@
                                 "=",
                                 "\"up\""
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "Entity",
+                                "Animation",
+                                "=",
+                                "\"Demon_red\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "CollisionPoint"
+                              },
+                              "parameters": [
+                                "Turn_Block",
+                                "Entity.PointX(\"Center\")",
+                                "Entity.PointY(\"Center\") + Grid_Size"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Name"
+                              },
+                              "parameters": [
+                                "Turn_Block",
+                                "Animation",
+                                "=",
+                                "\"ccw\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "Entity",
+                                "Direction",
+                                "=",
+                                "\"left\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "Entity",
+                                "Animation",
+                                "=",
+                                "\"Demon_green\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "CollisionPoint"
+                              },
+                              "parameters": [
+                                "Turn_Block",
+                                "Entity.PointX(\"Center\")",
+                                "Entity.PointY(\"Center\") + Grid_Size"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Name"
+                              },
+                              "parameters": [
+                                "Turn_Block",
+                                "Animation",
+                                "=",
+                                "\"cw\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "Entity",
+                                "Direction",
+                                "=",
+                                "\"right\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "Entity",
+                                "Animation",
+                                "=",
+                                "\"Demon_green\""
+                              ]
                             }
                           ]
                         },
@@ -5297,6 +5671,324 @@
                                 "",
                                 "Entity.PointX(\"Origin\")",
                                 "Entity.PointY(\"Origin\") + Grid_Size"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringObjectVariable"
+                          },
+                          "parameters": [
+                            "Entity",
+                            "Direction",
+                            "=",
+                            "\"left\""
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Or"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "CollisionPoint"
+                                  },
+                                  "parameters": [
+                                    "Block",
+                                    "Entity.PointX(\"Center\") - Grid_Size",
+                                    "Entity.PointY(\"Center\")"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "CollisionPoint"
+                                  },
+                                  "parameters": [
+                                    "Collisions",
+                                    "Entity.PointX(\"Center\") - Grid_Size",
+                                    "Entity.PointY(\"Center\")"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "CollisionPoint"
+                                  },
+                                  "parameters": [
+                                    "Void",
+                                    "Entity.PointX(\"Center\") - Grid_Size",
+                                    "Entity.PointY(\"Center\")"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "Entity",
+                                "Direction",
+                                "=",
+                                "\"right\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "Entity",
+                                "Animation",
+                                "=",
+                                "\"Demon_green\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Not"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "CollisionPoint"
+                                  },
+                                  "parameters": [
+                                    "Block",
+                                    "Entity.PointX(\"Center\") - Grid_Size",
+                                    "Entity.PointY(\"Center\")"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Not"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "CollisionPoint"
+                                  },
+                                  "parameters": [
+                                    "Collisions",
+                                    "Entity.PointX(\"Center\") - Grid_Size",
+                                    "Entity.PointY(\"Center\")"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Not"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "CollisionPoint"
+                                  },
+                                  "parameters": [
+                                    "Void",
+                                    "Entity.PointX(\"Center\") - Grid_Size",
+                                    "Entity.PointY(\"Center\")"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PathfindingBehavior::SetDestination"
+                              },
+                              "parameters": [
+                                "Entity",
+                                "Pathfinding",
+                                "",
+                                "Entity.PointX(\"Origin\") - Grid_Size",
+                                "Entity.PointY(\"Origin\")"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringObjectVariable"
+                          },
+                          "parameters": [
+                            "Entity",
+                            "Direction",
+                            "=",
+                            "\"right\""
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Or"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "CollisionPoint"
+                                  },
+                                  "parameters": [
+                                    "Block",
+                                    "Entity.PointX(\"Center\") + Grid_Size",
+                                    "Entity.PointY(\"Center\")"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "CollisionPoint"
+                                  },
+                                  "parameters": [
+                                    "Collisions",
+                                    "Entity.PointX(\"Center\") + Grid_Size",
+                                    "Entity.PointY(\"Center\")"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "CollisionPoint"
+                                  },
+                                  "parameters": [
+                                    "Void",
+                                    "Entity.PointX(\"Center\") + Grid_Size",
+                                    "Entity.PointY(\"Center\")"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "Entity",
+                                "Direction",
+                                "=",
+                                "\"left\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "Entity",
+                                "Animation",
+                                "=",
+                                "\"Demon_green\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Not"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "CollisionPoint"
+                                  },
+                                  "parameters": [
+                                    "Block",
+                                    "Entity.PointX(\"Center\") + Grid_Size",
+                                    "Entity.PointY(\"Center\")"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Not"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "CollisionPoint"
+                                  },
+                                  "parameters": [
+                                    "Collisions",
+                                    "Entity.PointX(\"Center\") + Grid_Size",
+                                    "Entity.PointY(\"Center\")"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Not"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "CollisionPoint"
+                                  },
+                                  "parameters": [
+                                    "Void",
+                                    "Entity.PointX(\"Center\") + Grid_Size",
+                                    "Entity.PointY(\"Center\")"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PathfindingBehavior::SetDestination"
+                              },
+                              "parameters": [
+                                "Entity",
+                                "Pathfinding",
+                                "",
+                                "Entity.PointX(\"Origin\") + Grid_Size",
+                                "Entity.PointY(\"Origin\")"
                               ]
                             }
                           ]
@@ -5577,7 +6269,7 @@
                                           },
                                           "parameters": [
                                             "",
-                                            "Block"
+                                            "Blocks"
                                           ]
                                         },
                                         {
@@ -6558,7 +7250,7 @@
           "isLocked": false,
           "name": "Dialogue",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": []
         },
@@ -6609,7 +7301,7 @@
           "isLocked": false,
           "name": "Collision",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": []
         },
