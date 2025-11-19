@@ -11273,7 +11273,6 @@
           "colorG": 155,
           "colorR": 155,
           "creationTime": 0,
-          "folded": true,
           "name": "Gameplay",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -12302,7 +12301,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Player movement",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -14907,7 +14905,12 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -15014,7 +15017,7 @@
                 },
                 {
                   "type": "string",
-                  "value": "\"something something voices in my head past trauma. i dunno man. we should probably get together and talk ab this soon\""
+                  "value": "\"Ever since my dad died, I keep hearing these... voices! They won't stop... Please, make them stop...\""
                 },
                 {
                   "type": "string",
@@ -15027,6 +15030,10 @@
                 {
                   "type": "string",
                   "value": "\"Understood. Now, close your eyes...\""
+                },
+                {
+                  "type": "string",
+                  "value": "..."
                 }
               ]
             }
@@ -15117,6 +15124,10 @@
                 {
                   "type": "string",
                   "value": "Doc"
+                },
+                {
+                  "type": "string",
+                  "value": "..."
                 }
               ]
             }
@@ -15272,6 +15283,17 @@
                 "1",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Patient1",
+                "Opacity",
+                "=",
+                "0"
+              ]
             }
           ]
         },
@@ -15339,6 +15361,37 @@
                   "parameters": [
                     "dialogueIndex",
                     "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Patient1",
+                    "Tween",
+                    "\"fadeout\"",
+                    "255",
+                    "\"linear\"",
+                    "1",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "dialogueIndex",
+                    "=",
                     "10"
                   ]
                 }
@@ -15355,9 +15408,47 @@
                     "255",
                     "\"linear\"",
                     "1",
-                    ""
+                    "no"
                   ]
                 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::Value"
+              },
+              "parameters": [
+                "fadeBox",
+                "Opacity",
+                "=",
+                "255"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "dialogueIndex",
+                ">",
+                "9"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Puzzle 1 (do not make changes here)\"",
+                ""
               ]
             }
           ]
