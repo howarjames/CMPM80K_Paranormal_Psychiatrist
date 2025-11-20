@@ -85,7 +85,9 @@
       "jjhowart"
     ],
     "categories": [],
-    "playableDevices": [],
+    "playableDevices": [
+      "keyboard"
+    ],
     "extensionProperties": [],
     "platforms": [
       {
@@ -576,6 +578,72 @@
         "name": "doctor_office_luggage_548133.jpg",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "BoxSprite.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BoxSprite.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "floaty idea 2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "floaty idea 2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "BoxSprite2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BoxSprite2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "RotateBoxSprite.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "RotateBoxSprite.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "FilledVoidSprite.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "FilledVoidSprite.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "VoidSprite.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "VoidSprite.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "BackSprite.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BackSprite.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "FrontSprite.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "FrontSprite.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -636,6 +704,878 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
+      "mangledName": "Dialogue_32Mockup",
+      "name": "Dialogue Mockup",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.41943397827590606,
+        "windowMask": false,
+        "selectedLayer": ""
+      },
+      "objectsGroups": [
+        {
+          "name": "UI Elements",
+          "objects": [
+            {
+              "name": "NewPanelSprite"
+            },
+            {
+              "name": "Dialogue"
+            },
+            {
+              "name": "Name"
+            }
+          ]
+        }
+      ],
+      "variables": [
+        {
+          "name": "dialogueIndex",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 917,
+          "keepRatio": true,
+          "layer": "",
+          "name": "background",
+          "persistentUuid": "573e756e-785a-4a53-bb52-af46bfa7f4e4",
+          "width": 1378,
+          "x": -52,
+          "y": -134,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Patient1",
+          "persistentUuid": "07db5f39-8728-4852-9e32-79d314052d26",
+          "width": 0,
+          "x": 885,
+          "y": 51,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 256,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewPanelSprite",
+          "persistentUuid": "80faf589-bee6-4681-a826-dc105db79209",
+          "width": 1050,
+          "x": 55,
+          "y": 424,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Dialogue",
+          "persistentUuid": "5dc5953e-9a5b-468a-85ed-bdaa5d071dd7",
+          "width": 874,
+          "x": 135,
+          "y": 519,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Name",
+          "persistentUuid": "6ff10c9d-b9ad-4fcf-9330-6341caf8a6d7",
+          "width": 0,
+          "x": 215,
+          "y": 461,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1217,
+          "keepRatio": true,
+          "layer": "",
+          "name": "fadeBox",
+          "persistentUuid": "13c27327-97b2-4e46-97b9-aa3a1aa90036",
+          "width": 1818,
+          "x": -274,
+          "y": -258,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "background",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Office",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "doctor_office_luggage_548133.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 769,
+                            "y": 0
+                          },
+                          {
+                            "x": 769,
+                            "y": 512
+                          },
+                          {
+                            "x": 0,
+                            "y": 512
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Patient1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "SVG_Human_Silhouette.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 359,
+                            "y": 0
+                          },
+                          {
+                            "x": 359,
+                            "y": 1086
+                          },
+                          {
+                            "x": 0,
+                            "y": 1086
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 155,
+          "height": 535,
+          "leftMargin": 55,
+          "name": "NewPanelSprite",
+          "rightMargin": 55,
+          "texture": "Borders.png",
+          "tiled": false,
+          "topMargin": 155,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 535,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Dialogue",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [
+            {
+              "name": "dialogueArray",
+              "type": "array",
+              "children": [
+                {
+                  "type": "string",
+                  "value": ". . ."
+                },
+                {
+                  "type": "string",
+                  "value": "You hear a knock on the door."
+                },
+                {
+                  "type": "string",
+                  "value": "As soon as you open it, one of your patients comes stumbling in, their face clammy and slick with sweat."
+                },
+                {
+                  "type": "string",
+                  "value": "\"Doc, you've... You've gotta help me! I feel like I'm going crazy!\""
+                },
+                {
+                  "type": "string",
+                  "value": "They sit down, shuddering."
+                },
+                {
+                  "type": "string",
+                  "value": "\"What seems to be the problem?\" "
+                },
+                {
+                  "type": "string",
+                  "value": "\"Ever since my dad died, I keep hearing these... voices! They won't stop... Please, make them stop...\""
+                },
+                {
+                  "type": "string",
+                  "value": "\"...I understand. Would you be interested in receiving some experimental treatment?\""
+                },
+                {
+                  "type": "string",
+                  "value": "\"...As long as it'll help? Anything. I just... I need help. Please.\""
+                },
+                {
+                  "type": "string",
+                  "value": "\"Understood. Now, close your eyes...\""
+                },
+                {
+                  "type": "string",
+                  "value": "..."
+                }
+              ]
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "string": ". . . ",
+          "font": "8c9a07c662ceae43dd999872f6bd6916cb95b58c2ae373fd0a8aa58b91ce7c43_Roboto-BoldItalic.ttf",
+          "textAlignment": "left",
+          "characterSize": 30,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": ". . . ",
+            "font": "8c9a07c662ceae43dd999872f6bd6916cb95b58c2ae373fd0a8aa58b91ce7c43_Roboto-BoldItalic.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 30,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Name",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [
+            {
+              "name": "nameArray",
+              "type": "array",
+              "children": [
+                {
+                  "type": "string",
+                  "value": "..."
+                },
+                {
+                  "type": "string",
+                  "value": "..."
+                },
+                {
+                  "type": "string",
+                  "value": "..."
+                },
+                {
+                  "type": "string",
+                  "value": "Patient"
+                },
+                {
+                  "type": "string",
+                  "value": "..."
+                },
+                {
+                  "type": "string",
+                  "value": "Doc"
+                },
+                {
+                  "type": "string",
+                  "value": "Patient"
+                },
+                {
+                  "type": "string",
+                  "value": "Doc"
+                },
+                {
+                  "type": "string",
+                  "value": "Patient"
+                },
+                {
+                  "type": "string",
+                  "value": "Doc"
+                },
+                {
+                  "type": "string",
+                  "value": "..."
+                }
+              ]
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "string": "",
+          "font": "8c9a07c662ceae43dd999872f6bd6916cb95b58c2ae373fd0a8aa58b91ce7c43_Roboto-BoldItalic.ttf",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "",
+            "font": "8c9a07c662ceae43dd999872f6bd6916cb95b58c2ae373fd0a8aa58b91ce7c43_Roboto-BoldItalic.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "fadeBox",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "fade",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "fade",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "background"
+          },
+          {
+            "objectName": "Patient1"
+          },
+          {
+            "objectName": "NewPanelSprite"
+          },
+          {
+            "objectName": "Dialogue"
+          },
+          {
+            "objectName": "fadeBox"
+          },
+          {
+            "objectName": "Name"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "fadeBox",
+                "Tween",
+                "\"fadein\"",
+                "0",
+                "\"linear\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Patient1",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "dialogueIndex",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Dialogue",
+                "Text",
+                "=",
+                "Dialogue.dialogueArray[dialogueIndex]"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Name",
+                "Text",
+                "=",
+                "Name.nameArray[dialogueIndex]"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "dialogueIndex",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Patient1",
+                    "Tween",
+                    "\"fadeout\"",
+                    "255",
+                    "\"linear\"",
+                    "1",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "dialogueIndex",
+                    "=",
+                    "10"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "fadeBox",
+                    "Tween",
+                    "\"fadeout\"",
+                    "255",
+                    "\"linear\"",
+                    "1",
+                    "no"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::Value"
+              },
+              "parameters": [
+                "fadeBox",
+                "Opacity",
+                "=",
+                "255"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "dialogueIndex",
+                ">",
+                "9"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Test Area\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "FlashTransitionPainter",
+          "type": "FlashTransitionPainter::FlashTransitionPainter"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
       "mangledName": "Test_32Area",
       "name": "Test Area",
       "r": 209,
@@ -653,7 +1593,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 1.3038404810405642,
+        "zoomFactor": 1.104610514283708,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -676,16 +1616,10 @@
           "name": "WorldObjects",
           "objects": [
             {
-              "name": "Tree2"
-            },
-            {
               "name": "Tree1"
             },
             {
               "name": "Bush1"
-            },
-            {
-              "name": "House1"
             }
           ]
         },
@@ -742,25 +1676,9 @@
           "name": "Player",
           "persistentUuid": "eb3eb9c8-9e76-4d2e-89c0-600889f54713",
           "width": 0,
-          "x": 576,
+          "x": 528,
           "y": 416,
           "zOrder": 600,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 24,
-          "height": 161,
-          "layer": "UI",
-          "name": "ShadedDarkJoystick",
-          "persistentUuid": "2e6a52d3-dbe7-4098-bc0f-d1d94d977d0f",
-          "width": 160,
-          "x": 128,
-          "y": 592,
-          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -894,7 +1812,7 @@
           "persistentUuid": "b8793104-b06b-4da5-9d7b-9416cf22662d",
           "width": 0,
           "x": 680,
-          "y": 316,
+          "y": 300,
           "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
@@ -910,7 +1828,7 @@
           "persistentUuid": "d73d3965-8c68-4bdd-a87b-d6b00532c06d",
           "width": 16,
           "x": 672,
-          "y": 304,
+          "y": 288,
           "zOrder": 42,
           "numberProperties": [],
           "stringProperties": [],
@@ -925,7 +1843,7 @@
           "persistentUuid": "5935199e-8198-4eeb-8e48-5b7d8dbd9213",
           "width": 0,
           "x": 728,
-          "y": 316,
+          "y": 332,
           "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
@@ -1007,7 +1925,7 @@
           "persistentUuid": "f930efde-8901-442f-8032-af76914eab63",
           "width": 320,
           "x": 512,
-          "y": 448,
+          "y": 464,
           "zOrder": 515,
           "numberProperties": [],
           "stringProperties": [],
@@ -1236,7 +2154,7 @@
           "persistentUuid": "44b6e830-4ced-4086-8fcb-e0e13495545c",
           "width": 16,
           "x": 720,
-          "y": 304,
+          "y": 320,
           "zOrder": 42,
           "numberProperties": [],
           "stringProperties": [],
@@ -1250,8 +2168,8 @@
           "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "07c058fd-7929-4d0f-acac-2420fba1248b",
-          "width": 144,
-          "x": 672,
+          "width": 64,
+          "x": 752,
           "y": 432,
           "zOrder": 42,
           "numberProperties": [],
@@ -1445,8 +2363,8 @@
           "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "e8afc3e2-8284-4b2e-a268-ca5aea71bfba",
-          "width": 48,
-          "x": 608,
+          "width": 64,
+          "x": 592,
           "y": 400,
           "zOrder": 613,
           "numberProperties": [],
@@ -1655,8 +2573,8 @@
           "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "1fa47892-bf75-47f5-99b6-ac774739ffcf",
-          "width": 48,
-          "x": 608,
+          "width": 64,
+          "x": 592,
           "y": 336,
           "zOrder": 632,
           "numberProperties": [],
@@ -1736,8 +2654,8 @@
           "name": "Block",
           "persistentUuid": "d977aad1-cbe8-4a25-b6a6-c073537cdaf4",
           "width": 0,
-          "x": 720,
-          "y": 352,
+          "x": 544,
+          "y": 320,
           "zOrder": 638,
           "numberProperties": [],
           "stringProperties": [],
@@ -1752,7 +2670,7 @@
           "name": "Block",
           "persistentUuid": "492ae635-f39f-4f10-b00f-4b9907530337",
           "width": 0,
-          "x": 736,
+          "x": 544,
           "y": 352,
           "zOrder": 639,
           "numberProperties": [],
@@ -2020,7 +2938,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 48,
+          "height": 16,
           "keepRatio": true,
           "layer": "Collision",
           "name": "CollisionDetect",
@@ -2059,7 +2977,7 @@
           "persistentUuid": "2e96eab6-16bf-4b9b-b200-e30a41efcd1e",
           "width": 0,
           "x": 600,
-          "y": 316,
+          "y": 332,
           "zOrder": 647,
           "numberProperties": [],
           "stringProperties": [],
@@ -2074,8 +2992,8 @@
           "name": "Bush1",
           "persistentUuid": "85fc10cb-8a0b-47b2-bed3-fd88ca7b46a6",
           "width": 0,
-          "x": 600,
-          "y": 332,
+          "x": 568,
+          "y": 348,
           "zOrder": 647,
           "numberProperties": [],
           "stringProperties": [],
@@ -2333,7 +3251,7 @@
           "persistentUuid": "f0000765-ff13-4726-b99d-7059621d81b8",
           "width": 0,
           "x": 728,
-          "y": 444,
+          "y": 460,
           "zOrder": 648,
           "numberProperties": [],
           "stringProperties": [],
@@ -2349,7 +3267,7 @@
           "persistentUuid": "9f91d554-b064-4316-bbef-882e758a9046",
           "width": 0,
           "x": 744,
-          "y": 444,
+          "y": 460,
           "zOrder": 648,
           "numberProperties": [],
           "stringProperties": [],
@@ -2426,22 +3344,6 @@
           "keepRatio": true,
           "layer": "",
           "name": "Void",
-          "persistentUuid": "ac798fff-6158-450c-be7b-8104d34f9538",
-          "width": 0,
-          "x": 656,
-          "y": 368,
-          "zOrder": 650,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Void",
           "persistentUuid": "e38c6bdb-ff7a-493b-822b-98c016c57ec5",
           "width": 0,
           "x": 656,
@@ -2476,8 +3378,8 @@
           "name": "Turn_Block",
           "persistentUuid": "55f9895d-1f99-45ba-b1f0-e6d9121fd13b",
           "width": 0,
-          "x": 560,
-          "y": 336,
+          "x": 544,
+          "y": 384,
           "zOrder": 653,
           "numberProperties": [],
           "stringProperties": [],
@@ -2492,7 +3394,7 @@
           "name": "Entity",
           "persistentUuid": "46ec0191-d130-48a1-a9e9-3a78c43c9a44",
           "width": 0,
-          "x": 560,
+          "x": 576,
           "y": 304,
           "zOrder": 654,
           "numberProperties": [],
@@ -2505,18 +3407,77 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Turn_Block",
-          "persistentUuid": "8a839e38-0017-4993-8190-4de482b5495d",
+          "name": "Bush1",
+          "persistentUuid": "197ccf98-5898-491f-b2d9-4a5184c68641",
           "width": 0,
-          "x": 768,
+          "x": 600,
+          "y": 348,
+          "zOrder": 657,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "8b91fced-83fe-438e-bdfd-e751ab304781",
+          "width": 0,
+          "x": 560,
           "y": 336,
-          "zOrder": 655,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 0
-            }
-          ],
+          "zOrder": 658,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "811bdf7f-3174-40bd-a567-85651a1ac648",
+          "width": 0,
+          "x": 560,
+          "y": 304,
+          "zOrder": 658,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "b633f989-264c-4ba7-a559-cd9354dd631b",
+          "width": 0,
+          "x": 560,
+          "y": 368,
+          "zOrder": 658,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "dcd0988b-3442-434d-ba5f-a2ae7a4b01e8",
+          "width": 0,
+          "x": 592,
+          "y": 320,
+          "zOrder": 658,
+          "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
@@ -2526,18 +3487,110 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Turn_Block",
-          "persistentUuid": "2c29b4f6-735e-4d8b-86d0-fe1cbc9f3ad2",
+          "name": "Bush1",
+          "persistentUuid": "87dedad9-7d2c-4a3b-9ee0-bf540a9d2dfe",
           "width": 0,
-          "x": 752,
+          "x": 568,
+          "y": 380,
+          "zOrder": 659,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bush1",
+          "persistentUuid": "fb7f550b-b59f-4a8d-a66a-8d29f7d265a5",
+          "width": 16,
+          "x": 568,
+          "y": 412,
+          "zOrder": 660,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bush1",
+          "persistentUuid": "8fc462eb-c758-49d6-aa74-9a258f6bd3c7",
+          "width": 0,
+          "x": 568,
+          "y": 316,
+          "zOrder": 661,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bush1",
+          "persistentUuid": "78ad2141-10ad-4433-a6ee-ff13b4b69977",
+          "width": 0,
+          "x": 600,
+          "y": 412,
+          "zOrder": 662,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "63da35e7-c3bd-47e6-a4c9-7b01a7543b29",
+          "width": 48,
+          "x": 672,
+          "y": 432,
+          "zOrder": 42,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "c01144fd-6d89-4a31-8f9e-b69746bfc80c",
+          "width": 32,
+          "x": 720,
+          "y": 448,
+          "zOrder": 42,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "b75edffd-51e0-47f8-876c-a90012ea3baf",
+          "width": 0,
+          "x": 560,
           "y": 400,
-          "zOrder": 656,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 0
-            }
-          ],
+          "zOrder": 663,
+          "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         }
@@ -3215,47 +4268,6 @@
         {
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
-          "name": "Dock1",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Dock1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": false,
-          "assetStoreId": "",
           "name": "Tree1",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -3279,47 +4291,6 @@
                         "name": "origine",
                         "x": 15.854545593261719,
                         "y": 27.40909194946289
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": false,
-          "assetStoreId": "",
-          "name": "Tree2",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Tree2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 16.000001907348633,
-                        "y": 30.618200302124023
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -3377,190 +4348,12 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
-          "assetStoreId": "",
-          "name": "House1",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "House2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 32,
-                        "y": 24
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": false,
-          "assetStoreId": "",
-          "name": "CornerWater",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "WaterCorner.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": false,
-          "assetStoreId": "",
-          "name": "WaterCorner2",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "WaterCorner2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "assetStoreId": "",
           "height": 32,
           "name": "Grass",
           "texture": "Grass1.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "assetStoreId": "",
-          "height": 16,
-          "name": "WaterEdgeRight",
-          "texture": "WaterEdgeRight.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "assetStoreId": "",
-          "height": 32,
-          "name": "NewTiledSprite",
-          "texture": "WaterEdgeUp.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 16,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "assetStoreId": "",
-          "height": 32,
-          "name": "Water1",
-          "texture": "Water1.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "assetStoreId": "",
-          "height": 16,
-          "name": "Road1",
-          "texture": "Road1.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 16,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "assetStoreId": "",
-          "height": 5,
-          "name": "RoadEdge1",
-          "texture": "RoadEdge1.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 36,
           "variables": [],
           "effects": [],
           "behaviors": []
@@ -3605,88 +4398,6 @@
               ]
             }
           ]
-        },
-        {
-          "assetStoreId": "9be1b0d0d5a1afad4537db989ea5e3a4a4564dfd123630a9bf61330a73803c63",
-          "name": "ShadedDarkJoystick",
-          "type": "SpriteMultitouchJoystick::SpriteMultitouchJoystick",
-          "variant": "",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {},
-          "childrenContent": {
-            "Border": {
-              "adaptCollisionMaskAutomatically": false,
-              "updateIfNotVisible": false,
-              "animations": [
-                {
-                  "name": "Idle",
-                  "useMultipleDirections": false,
-                  "directions": [
-                    {
-                      "looping": false,
-                      "timeBetweenFrames": 0.08,
-                      "sprites": [
-                        {
-                          "hasCustomCollisionMask": false,
-                          "image": "Shaded dark joystick border.png",
-                          "points": [],
-                          "originPoint": {
-                            "name": "origine",
-                            "x": 0,
-                            "y": 0
-                          },
-                          "centerPoint": {
-                            "automatic": true,
-                            "name": "centre",
-                            "x": 0,
-                            "y": 0
-                          },
-                          "customCollisionMask": []
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            "Thumb": {
-              "adaptCollisionMaskAutomatically": false,
-              "updateIfNotVisible": false,
-              "animations": [
-                {
-                  "name": "Idle",
-                  "useMultipleDirections": false,
-                  "directions": [
-                    {
-                      "looping": false,
-                      "timeBetweenFrames": 0.08,
-                      "sprites": [
-                        {
-                          "hasCustomCollisionMask": false,
-                          "image": "Shaded dark joystick thumb.png",
-                          "points": [],
-                          "originPoint": {
-                            "name": "origine",
-                            "x": 0,
-                            "y": 0
-                          },
-                          "centerPoint": {
-                            "automatic": true,
-                            "name": "centre",
-                            "x": 0,
-                            "y": 0
-                          },
-                          "customCollisionMask": []
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          }
         },
         {
           "adaptCollisionMaskAutomatically": false,
@@ -3805,126 +4516,6 @@
                         "y": 0
                       },
                       "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "7844d6869edba6e65f65bb2c5f5b06bafbe542f3b0fbfa464d6788e579b7a0a4",
-          "name": "ChevronArrowLeft",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Chevron-Arrow-Left.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 9,
-                            "y": 0
-                          },
-                          {
-                            "x": 9,
-                            "y": 14
-                          },
-                          {
-                            "x": 0,
-                            "y": 14
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "00a1702ecb9e41fef7bfdb3f1c4b0de7a9c99ddcdd1a5c13da577d5c3a89f3e4",
-          "name": "ChevronArrowUp",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Chevron-Arrow-Up.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 14,
-                            "y": 0
-                          },
-                          {
-                            "x": 14,
-                            "y": 9
-                          },
-                          {
-                            "x": 0,
-                            "y": 9
-                          }
-                        ]
-                      ]
                     }
                   ]
                 }
@@ -4504,43 +5095,10 @@
         "folderName": "__ROOT",
         "children": [
           {
-            "objectName": "ChevronArrowUp"
-          },
-          {
-            "objectName": "ChevronArrowLeft"
-          },
-          {
-            "objectName": "ShadedDarkJoystick"
-          },
-          {
             "folderName": "Background",
             "children": [
               {
                 "objectName": "Grass"
-              },
-              {
-                "objectName": "CornerWater"
-              },
-              {
-                "objectName": "WaterEdgeRight"
-              },
-              {
-                "objectName": "WaterCorner2"
-              },
-              {
-                "objectName": "NewTiledSprite"
-              },
-              {
-                "objectName": "Water1"
-              },
-              {
-                "objectName": "Road1"
-              },
-              {
-                "objectName": "RoadEdge1"
-              },
-              {
-                "objectName": "Dock1"
               }
             ]
           },
@@ -4548,13 +5106,7 @@
             "folderName": "Obstacles",
             "children": [
               {
-                "objectName": "House1"
-              },
-              {
                 "objectName": "Tree1"
-              },
-              {
-                "objectName": "Tree2"
               },
               {
                 "objectName": "Bush1"
@@ -4686,6 +5238,18 @@
                     "=",
                     "Player.Y()"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "floaty idea 2.wav",
+                    "yes",
+                    "",
+                    ""
+                  ]
                 }
               ]
             },
@@ -4746,165 +5310,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "colorB": 228,
-              "colorG": 176,
-              "colorR": 74,
-              "creationTime": 0,
-              "folded": true,
-              "name": "Mobile controls",
-              "source": "",
-              "type": "BuiltinCommonInstructions::Group",
-              "events": [
-                {
-                  "folded": true,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "DepartScene"
-                      },
-                      "parameters": [
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "SystemInfo::HasTouchScreen"
-                      },
-                      "parameters": [
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "ShadedDarkJoystick",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "SpriteMultitouchJoystick::SpriteMultitouchJoystick::IsDirectionPushed4Way"
-                      },
-                      "parameters": [
-                        "ShadedDarkJoystick",
-                        "\"Up\"",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TopDownMovementBehavior::SimulateControl"
-                      },
-                      "parameters": [
-                        "Player",
-                        "TopDownMovement",
-                        "\"Up\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "SpriteMultitouchJoystick::SpriteMultitouchJoystick::IsDirectionPushed4Way"
-                      },
-                      "parameters": [
-                        "ShadedDarkJoystick",
-                        "\"Right\"",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TopDownMovementBehavior::SimulateControl"
-                      },
-                      "parameters": [
-                        "Player",
-                        "TopDownMovement",
-                        "\"Right\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "SpriteMultitouchJoystick::SpriteMultitouchJoystick::IsDirectionPushed4Way"
-                      },
-                      "parameters": [
-                        "ShadedDarkJoystick",
-                        "\"Left\"",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TopDownMovementBehavior::SimulateControl"
-                      },
-                      "parameters": [
-                        "Player",
-                        "TopDownMovement",
-                        "\"Left\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "SpriteMultitouchJoystick::SpriteMultitouchJoystick::IsDirectionPushed4Way"
-                      },
-                      "parameters": [
-                        "ShadedDarkJoystick",
-                        "\"Down\"",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TopDownMovementBehavior::SimulateControl"
-                      },
-                      "parameters": [
-                        "Player",
-                        "TopDownMovement",
-                        "\"Down\""
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": []
             },
             {
               "colorB": 228,
@@ -6230,7 +6635,7 @@
                       },
                       "parameters": [
                         "",
-                        "\"EndScreen\"",
+                        "\"DeathScreen\"",
                         ""
                       ]
                     }
@@ -6288,7 +6693,7 @@
                       },
                       "parameters": [
                         "",
-                        "\"EndScreen\"",
+                        "\"Dialogue End Test\"",
                         ""
                       ]
                     }
@@ -13451,625 +13856,6 @@
     {
       "b": 0,
       "disableInputWhenNotFocused": true,
-      "mangledName": "EndScreen",
-      "name": "EndScreen",
-      "r": 0,
-      "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
-      "title": "",
-      "v": 0,
-      "uiSettings": {
-        "grid": false,
-        "gridType": "rectangular",
-        "gridWidth": 32,
-        "gridHeight": 32,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
-        "gridColor": 10401023,
-        "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.4789341884535247,
-        "windowMask": false,
-        "selectedLayer": ""
-      },
-      "objectsGroups": [],
-      "variables": [],
-      "instances": [
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Transition",
-          "name": "Transition",
-          "persistentUuid": "3ab32943-48d1-44bd-ad80-16b566cc4b39",
-          "width": 0,
-          "x": 1395,
-          "y": 173,
-          "zOrder": 81,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 231,
-          "keepRatio": true,
-          "layer": "",
-          "name": "EndGame",
-          "persistentUuid": "ccbbaedd-a7c5-47b5-8036-ec8372a6a64f",
-          "width": 1281,
-          "x": 1,
-          "y": 117,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 160,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Player",
-          "persistentUuid": "aedbba8e-30bf-4d6e-bcbe-8c84325d3dfc",
-          "width": 160,
-          "x": 1044,
-          "y": 489,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "EndingDialog",
-          "persistentUuid": "003936ed-15a1-4016-ab3f-084a1fa77bcc",
-          "width": 0,
-          "x": 401,
-          "y": 46,
-          "zOrder": 82,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        }
-      ],
-      "objects": [
-        {
-          "assetStoreId": "",
-          "bold": false,
-          "italic": false,
-          "name": "EndGame",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "ShakeObject_PositionAngle",
-              "type": "ShakeObject::ShakeObject_PositionAngle"
-            }
-          ],
-          "string": "Game End",
-          "font": "3bd40ac788d44626fd640ec67ef04ab0364816b5e8c831f2077bff8805cfe689_Roboto-Bold.ttf",
-          "textAlignment": "center",
-          "characterSize": 200,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "Game End",
-            "font": "3bd40ac788d44626fd640ec67ef04ab0364816b5e8c831f2077bff8805cfe689_Roboto-Bold.ttf",
-            "textAlignment": "center",
-            "verticalTextAlignment": "top",
-            "characterSize": 200,
-            "lineHeight": 0,
-            "color": "255;255;255"
-          }
-        },
-        {
-          "adaptCollisionMaskAutomatically": false,
-          "assetStoreId": "",
-          "name": "Player",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "PixelPerfectTopDownMovement",
-              "type": "PixelPerfectMovement::PixelPerfectTopDownMovement",
-              "TopDownMovement": "TopDownMovement",
-              "PixelSize": 16,
-              "OffsetX": 0,
-              "OffsetY": 0
-            },
-            {
-              "name": "TopDownMovement",
-              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-              "acceleration": 900000,
-              "allowDiagonals": false,
-              "angleOffset": 0,
-              "angularMaxSpeed": 180,
-              "customIsometryAngle": 30,
-              "deceleration": 900000,
-              "ignoreDefaultControls": false,
-              "maxSpeed": 50,
-              "movementAngleOffset": 0,
-              "rotateObject": false,
-              "viewpoint": "TopDown"
-            }
-          ],
-          "animations": [
-            {
-              "name": "Down",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.20000000298023224,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "ACharDown1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "ACharDown2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "ACharDown3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "ACharDown4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "EndingDialog",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "ButtonFSM",
-              "type": "ButtonStates::ButtonFSM",
-              "ShouldCheckHovering": true,
-              "State": "Idle",
-              "TouchId": 0,
-              "TouchIsInside": false,
-              "MouseIsInside": false,
-              "Index": 2.0247e-320
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\You Win.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 501,
-                            "y": 0
-                          },
-                          {
-                            "x": 501,
-                            "y": 600
-                          },
-                          {
-                            "x": 0,
-                            "y": 600
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "objectsFolderStructure": {
-        "folderName": "__ROOT",
-        "children": [
-          {
-            "objectName": "EndGame"
-          },
-          {
-            "objectName": "Player"
-          },
-          {
-            "objectName": "EndingDialog"
-          }
-        ]
-      },
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "EndingDialog"
-              ]
-            },
-            {
-              "type": {
-                "value": "ZoomCamera"
-              },
-              "parameters": [
-                "",
-                "1.5",
-                "\"Transition\"",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
-              },
-              "parameters": [
-                "EndGame",
-                "ShakeObject_PositionAngle",
-                "0",
-                "0",
-                "25",
-                "0",
-                "1",
-                "yes",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
-              },
-              "parameters": [
-                "Transition",
-                "FlashTransitionPainter",
-                "\"0;0;0\"",
-                "1",
-                "\"Circular\"",
-                "\"Backward\"",
-                "",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Ending dialog",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "DepartScene"
-                  },
-                  "parameters": [
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "EndingDialog",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "ButtonStates::ButtonFSM::IsClicked"
-                  },
-                  "parameters": [
-                    "EndingDialog",
-                    "ButtonFSM",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Visible"
-                  },
-                  "parameters": [
-                    "EndingDialog"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Quit"
-                  },
-                  "parameters": [
-                    ""
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        }
-      ],
-      "layers": [
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Light",
-              "doubleParameters": {
-                "elevation": 45,
-                "intensity": 1,
-                "rotation": 0
-              },
-              "stringParameters": {
-                "groundColor": "64;64;64",
-                "skyColor": "255;255;255",
-                "top": "Y-"
-              },
-              "booleanParameters": {}
-            }
-          ]
-        },
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "Transition",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Light",
-              "doubleParameters": {
-                "elevation": 45,
-                "intensity": 1,
-                "rotation": 0
-              },
-              "stringParameters": {
-                "groundColor": "64;64;64",
-                "skyColor": "255;255;255",
-                "top": "Y-"
-              },
-              "booleanParameters": {}
-            }
-          ]
-        }
-      ],
-      "behaviorsSharedData": [
-        {
-          "name": "Animation",
-          "type": "AnimatableCapability::AnimatableBehavior"
-        },
-        {
-          "name": "ButtonFSM",
-          "type": "ButtonStates::ButtonFSM"
-        },
-        {
-          "name": "Effect",
-          "type": "EffectCapability::EffectBehavior"
-        },
-        {
-          "name": "FlashTransitionPainter",
-          "type": "FlashTransitionPainter::FlashTransitionPainter"
-        },
-        {
-          "name": "Flippable",
-          "type": "FlippableCapability::FlippableBehavior"
-        },
-        {
-          "name": "Opacity",
-          "type": "OpacityCapability::OpacityBehavior"
-        },
-        {
-          "name": "PixelPerfectTopDownMovement",
-          "type": "PixelPerfectMovement::PixelPerfectTopDownMovement"
-        },
-        {
-          "name": "Resizable",
-          "type": "ResizableCapability::ResizableBehavior"
-        },
-        {
-          "name": "Scale",
-          "type": "ScalableCapability::ScalableBehavior"
-        },
-        {
-          "name": "ShakeObject_PositionAngle",
-          "type": "ShakeObject::ShakeObject_PositionAngle"
-        },
-        {
-          "name": "Text",
-          "type": "TextContainerCapability::TextContainerBehavior"
-        },
-        {
-          "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
-        }
-      ]
-    },
-    {
-      "b": 0,
-      "disableInputWhenNotFocused": true,
       "mangledName": "DeathScreen",
       "name": "DeathScreen",
       "r": 0,
@@ -14120,25 +13906,8 @@
           "name": "EndGame",
           "persistentUuid": "ccbbaedd-a7c5-47b5-8036-ec8372a6a64f",
           "width": 1281,
-          "x": 1,
-          "y": 117,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 160,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Player",
-          "persistentUuid": "aedbba8e-30bf-4d6e-bcbe-8c84325d3dfc",
-          "width": 160,
-          "x": 1044,
-          "y": 489,
+          "x": -7,
+          "y": -3,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -14150,11 +13919,11 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "EndingDialog",
-          "persistentUuid": "003936ed-15a1-4016-ab3f-084a1fa77bcc",
+          "name": "EndGame2",
+          "persistentUuid": "1484883e-9e5b-4398-9afd-51026d976cc4",
           "width": 0,
-          "x": 401,
-          "y": 46,
+          "x": 188,
+          "y": 297,
           "zOrder": 82,
           "numberProperties": [],
           "stringProperties": [],
@@ -14178,7 +13947,7 @@
               "type": "ShakeObject::ShakeObject_PositionAngle"
             }
           ],
-          "string": "Game End",
+          "string": "You Died!\n",
           "font": "3bd40ac788d44626fd640ec67ef04ab0364816b5e8c831f2077bff8805cfe689_Roboto-Bold.ttf",
           "textAlignment": "center",
           "characterSize": 200,
@@ -14201,7 +13970,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Game End",
+            "text": "You Died!\n",
             "font": "3bd40ac788d44626fd640ec67ef04ab0364816b5e8c831f2077bff8805cfe689_Roboto-Bold.ttf",
             "textAlignment": "center",
             "verticalTextAlignment": "top",
@@ -14327,76 +14096,52 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "EndingDialog",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
+          "bold": false,
+          "italic": false,
+          "name": "EndGame2",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
           "variables": [],
           "effects": [],
           "behaviors": [
             {
-              "name": "ButtonFSM",
-              "type": "ButtonStates::ButtonFSM",
-              "ShouldCheckHovering": true,
-              "State": "Idle",
-              "TouchId": 0,
-              "TouchIsInside": false,
-              "MouseIsInside": false,
-              "Index": 2.0247e-320
+              "name": "ShakeObject_PositionAngle",
+              "type": "ShakeObject::ShakeObject_PositionAngle"
             }
           ],
-          "animations": [
-            {
-              "name": "assets\\You Win",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\You Win.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 500,
-                            "y": 0
-                          },
-                          {
-                            "x": 500,
-                            "y": 600
-                          },
-                          {
-                            "x": 0,
-                            "y": 600
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
+          "string": "The entity got you. \nPress R to try again.",
+          "font": "3bd40ac788d44626fd640ec67ef04ab0364816b5e8c831f2077bff8805cfe689_Roboto-Bold.ttf",
+          "textAlignment": "center",
+          "characterSize": 100,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "The entity got you. \nPress R to try again.",
+            "font": "3bd40ac788d44626fd640ec67ef04ab0364816b5e8c831f2077bff8805cfe689_Roboto-Bold.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 100,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -14406,10 +14151,10 @@
             "objectName": "EndGame"
           },
           {
-            "objectName": "Player"
+            "objectName": "EndGame2"
           },
           {
-            "objectName": "EndingDialog"
+            "objectName": "Player"
           }
         ]
       },
@@ -14427,14 +14172,6 @@
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "EndingDialog"
-              ]
-            },
             {
               "type": {
                 "value": "ZoomCamera"
@@ -14508,15 +14245,6 @@
                   "parameters": [
                     "2"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "EndingDialog",
-                    ""
-                  ]
                 }
               ]
             },
@@ -14525,29 +14253,22 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                    "value": "KeyFromTextPressed"
                   },
                   "parameters": [
-                    "EndingDialog",
-                    "ButtonFSM",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Visible"
-                  },
-                  "parameters": [
-                    "EndingDialog"
+                    "",
+                    "\"r\""
                   ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "Quit"
+                    "value": "Scene"
                   },
                   "parameters": [
+                    "",
+                    "\"Test Area\"",
                     ""
                   ]
                 }
@@ -14642,10 +14363,6 @@
           "type": "AnimatableCapability::AnimatableBehavior"
         },
         {
-          "name": "ButtonFSM",
-          "type": "ButtonStates::ButtonFSM"
-        },
-        {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
         },
@@ -14690,8 +14407,8 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Dialogue_32Mockup",
-      "name": "Dialogue Mockup",
+      "mangledName": "Dialogue_32End_32Test",
+      "name": "Dialogue End Test",
       "r": 209,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -14993,47 +14710,23 @@
               "children": [
                 {
                   "type": "string",
-                  "value": ". . ."
+                  "value": "Wow doc!"
                 },
                 {
                   "type": "string",
-                  "value": "You hear a knock on the door."
+                  "value": "The voices are gone!"
                 },
                 {
                   "type": "string",
-                  "value": "As soon as you open it, one of your patients comes stumbling in, their face clammy and slick with sweat."
+                  "value": "Man you sure are a great, awesome puzzling you did up there in my noggin."
                 },
                 {
                   "type": "string",
-                  "value": "\"Doc, you've... You've gotta help me! I feel like I'm going crazy!\""
+                  "value": "Only one thing..."
                 },
                 {
                   "type": "string",
-                  "value": "They sit down, shuddering."
-                },
-                {
-                  "type": "string",
-                  "value": "\"What seems to be the problem?\" "
-                },
-                {
-                  "type": "string",
-                  "value": "\"Ever since my dad died, I keep hearing these... voices! They won't stop... Please, make them stop...\""
-                },
-                {
-                  "type": "string",
-                  "value": "\"...I understand. Would you be interested in receiving some experimental treatment?\""
-                },
-                {
-                  "type": "string",
-                  "value": "\"...As long as it'll help? Anything. I just... I need help. Please.\""
-                },
-                {
-                  "type": "string",
-                  "value": "\"Understood. Now, close your eyes...\""
-                },
-                {
-                  "type": "string",
-                  "value": "..."
+                  "value": "What's my name? I forgot..."
                 }
               ]
             }
@@ -15087,15 +14780,7 @@
               "children": [
                 {
                   "type": "string",
-                  "value": "..."
-                },
-                {
-                  "type": "string",
-                  "value": "..."
-                },
-                {
-                  "type": "string",
-                  "value": "..."
+                  "value": "Patient"
                 },
                 {
                   "type": "string",
@@ -15103,11 +14788,7 @@
                 },
                 {
                   "type": "string",
-                  "value": "..."
-                },
-                {
-                  "type": "string",
-                  "value": "Doc"
+                  "value": "Patient"
                 },
                 {
                   "type": "string",
@@ -15115,19 +14796,7 @@
                 },
                 {
                   "type": "string",
-                  "value": "Doc"
-                },
-                {
-                  "type": "string",
                   "value": "Patient"
-                },
-                {
-                  "type": "string",
-                  "value": "Doc"
-                },
-                {
-                  "type": "string",
-                  "value": "..."
                 }
               ]
             }
@@ -15361,7 +15030,7 @@
                   "parameters": [
                     "dialogueIndex",
                     "=",
-                    "3"
+                    "1"
                   ]
                 }
               ],
@@ -15392,7 +15061,7 @@
                   "parameters": [
                     "dialogueIndex",
                     "=",
-                    "10"
+                    "4"
                   ]
                 }
               ],
@@ -15436,7 +15105,7 @@
               "parameters": [
                 "dialogueIndex",
                 ">",
-                "9"
+                "3"
               ]
             }
           ],
@@ -15447,7 +15116,7 @@
               },
               "parameters": [
                 "",
-                "\"Puzzle 1 (do not make changes here)\"",
+                "\"EndScreen\"",
                 ""
               ]
             }
@@ -15556,6 +15225,384 @@
         {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
+        }
+      ]
+    },
+    {
+      "b": 0,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "EndScreen",
+      "name": "EndScreen",
+      "r": 0,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 0,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.4789341884535247,
+        "windowMask": false,
+        "selectedLayer": ""
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Transition",
+          "name": "Transition",
+          "persistentUuid": "3ab32943-48d1-44bd-ad80-16b566cc4b39",
+          "width": 0,
+          "x": 1395,
+          "y": 173,
+          "zOrder": 81,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 231,
+          "keepRatio": true,
+          "layer": "",
+          "name": "EndGame",
+          "persistentUuid": "ccbbaedd-a7c5-47b5-8036-ec8372a6a64f",
+          "width": 1281,
+          "x": -3,
+          "y": -2,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "EndGame2",
+          "persistentUuid": "b1484c50-849a-4f00-8372-46c90b1ba81f",
+          "width": 0,
+          "x": 229,
+          "y": 225,
+          "zOrder": 82,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "EndGame",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ShakeObject_PositionAngle",
+              "type": "ShakeObject::ShakeObject_PositionAngle"
+            }
+          ],
+          "string": "The End",
+          "font": "3bd40ac788d44626fd640ec67ef04ab0364816b5e8c831f2077bff8805cfe689_Roboto-Bold.ttf",
+          "textAlignment": "center",
+          "characterSize": 200,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "The End",
+            "font": "3bd40ac788d44626fd640ec67ef04ab0364816b5e8c831f2077bff8805cfe689_Roboto-Bold.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 200,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "EndGame2",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ShakeObject_PositionAngle",
+              "type": "ShakeObject::ShakeObject_PositionAngle"
+            }
+          ],
+          "string": "Thank you for\nplaying our game!",
+          "font": "3bd40ac788d44626fd640ec67ef04ab0364816b5e8c831f2077bff8805cfe689_Roboto-Bold.ttf",
+          "textAlignment": "center",
+          "characterSize": 100,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Thank you for\nplaying our game!",
+            "font": "3bd40ac788d44626fd640ec67ef04ab0364816b5e8c831f2077bff8805cfe689_Roboto-Bold.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 100,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "EndGame"
+          },
+          {
+            "objectName": "EndGame2"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "1.5",
+                "\"Transition\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+              },
+              "parameters": [
+                "Transition",
+                "FlashTransitionPainter",
+                "\"0;0;0\"",
+                "1",
+                "\"Circular\"",
+                "\"Backward\"",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Ending dialog",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Transition",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "FlashTransitionPainter",
+          "type": "FlashTransitionPainter::FlashTransitionPainter"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     }
