@@ -414,14 +414,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite5.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Hole",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "assets/Filled_Void.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Filled_Void.png\"}",
@@ -450,22 +442,6 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Demon.png\",\"extension\":\".png\"}",
         "name": "assets\\Demon.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/assets_Turn_Block2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "assets\\Turn_Block2",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/clockwise.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "clockwise",
         "smoothed": false,
         "userAdded": false
       },
@@ -518,7 +494,7 @@
         "userAdded": false
       },
       {
-        "file": "Boulder_Move.wav",
+        "file": "assets/Boulder_Move.wav",
         "kind": "audio",
         "metadata": "",
         "name": "Boulder_Move.wav",
@@ -528,17 +504,7 @@
         "userAdded": false
       },
       {
-        "file": "Boulder_Move2.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Boulder_Move2.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
-      },
-      {
-        "file": "Boulder_Drop.wav",
+        "file": "assets/Boulder_Drop.wav",
         "kind": "audio",
         "metadata": "",
         "name": "Boulder_Drop.wav",
@@ -556,7 +522,7 @@
         "userAdded": false
       },
       {
-        "file": "Borders.png",
+        "file": "assets/Borders.png",
         "kind": "image",
         "metadata": "",
         "name": "Borders.png",
@@ -564,7 +530,7 @@
         "userAdded": false
       },
       {
-        "file": "SVG_Human_Silhouette.png",
+        "file": "assets/SVG_Human_Silhouette.png",
         "kind": "image",
         "metadata": "",
         "name": "SVG_Human_Silhouette.png",
@@ -572,7 +538,7 @@
         "userAdded": false
       },
       {
-        "file": "doctor_office_luggage_548133.jpg",
+        "file": "assets/doctor_office_luggage_548133.jpg",
         "kind": "image",
         "metadata": "",
         "name": "doctor_office_luggage_548133.jpg",
@@ -580,7 +546,7 @@
         "userAdded": false
       },
       {
-        "file": "BoxSprite.png",
+        "file": "assets/BoxSprite.png",
         "kind": "image",
         "metadata": "",
         "name": "BoxSprite.png",
@@ -588,7 +554,7 @@
         "userAdded": false
       },
       {
-        "file": "floaty idea 2.wav",
+        "file": "assets/floaty idea 2.wav",
         "kind": "audio",
         "metadata": "",
         "name": "floaty idea 2.wav",
@@ -598,7 +564,7 @@
         "userAdded": false
       },
       {
-        "file": "BoxSprite2.png",
+        "file": "assets/BoxSprite2.png",
         "kind": "image",
         "metadata": "",
         "name": "BoxSprite2.png",
@@ -606,7 +572,7 @@
         "userAdded": false
       },
       {
-        "file": "RotateBoxSprite.png",
+        "file": "assets/RotateBoxSprite.png",
         "kind": "image",
         "metadata": "",
         "name": "RotateBoxSprite.png",
@@ -614,7 +580,7 @@
         "userAdded": false
       },
       {
-        "file": "FilledVoidSprite.png",
+        "file": "assets/FilledVoidSprite.png",
         "kind": "image",
         "metadata": "",
         "name": "FilledVoidSprite.png",
@@ -630,7 +596,7 @@
         "userAdded": false
       },
       {
-        "file": "BackSprite.png",
+        "file": "assets/BackSprite.png",
         "kind": "image",
         "metadata": "",
         "name": "BackSprite.png",
@@ -1593,7 +1559,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 1.104610514283708,
+        "zoomFactor": 1.3932548895447416,
         "windowMask": false,
         "selectedLayer": ""
       },
