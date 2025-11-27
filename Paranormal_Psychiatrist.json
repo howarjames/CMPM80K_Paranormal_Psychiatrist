@@ -284,6 +284,26 @@
         "name": "assets\\exit.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/5. Victory Theme.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "5. Victory Theme.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/9. Death Theme.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "9. Death Theme.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ]
   },
@@ -345,6 +365,1134 @@
     }
   ],
   "layouts": [
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Dialogue_32Mockup",
+      "name": "Dialogue Mockup",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridDepth": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridOffsetZ": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.17130934511241885,
+        "windowMask": false,
+        "selectedLayer": ""
+      },
+      "objectsGroups": [
+        {
+          "name": "UI Elements",
+          "objects": [
+            {
+              "name": "NewPanelSprite"
+            },
+            {
+              "name": "Dialogue"
+            },
+            {
+              "name": "Name"
+            }
+          ]
+        }
+      ],
+      "variables": [
+        {
+          "name": "dialogueIndex",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 3,
+          "height": 1313,
+          "keepRatio": true,
+          "layer": "",
+          "name": "background",
+          "persistentUuid": "573e756e-785a-4a53-bb52-af46bfa7f4e4",
+          "width": 1973,
+          "x": -17,
+          "y": -40,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Patient1",
+          "persistentUuid": "07db5f39-8728-4852-9e32-79d314052d26",
+          "width": 0,
+          "x": 885,
+          "y": 51,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 256,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewPanelSprite",
+          "persistentUuid": "80faf589-bee6-4681-a826-dc105db79209",
+          "width": 1050,
+          "x": 298,
+          "y": 745,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Dialogue",
+          "persistentUuid": "5dc5953e-9a5b-468a-85ed-bdaa5d071dd7",
+          "width": 874,
+          "x": 368,
+          "y": 878,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Name",
+          "persistentUuid": "6ff10c9d-b9ad-4fcf-9330-6341caf8a6d7",
+          "width": 0,
+          "x": 368,
+          "y": 817,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1350,
+          "keepRatio": true,
+          "layer": "",
+          "name": "fadeBox",
+          "persistentUuid": "13c27327-97b2-4e46-97b9-aa3a1aa90036",
+          "width": 2017,
+          "x": -46,
+          "y": 1336,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 1809,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Patient",
+          "persistentUuid": "717bf69f-1e15-4aa1-b160-ea559a5d6642",
+          "width": 598,
+          "x": 1259,
+          "y": 74,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1269,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Psych",
+          "persistentUuid": "783e60ec-9106-49cc-97ff-271f04e779bf",
+          "width": 1247,
+          "x": 973,
+          "y": 94,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "background",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Office",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "doctor_office_luggage_548133.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 769,
+                            "y": 0
+                          },
+                          {
+                            "x": 769,
+                            "y": 512
+                          },
+                          {
+                            "x": 0,
+                            "y": 512
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Patient",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "Patient",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "SVG_Human_Silhouette.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 359,
+                            "y": 0
+                          },
+                          {
+                            "x": 359,
+                            "y": 1086
+                          },
+                          {
+                            "x": 0,
+                            "y": 1086
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 155,
+          "height": 535,
+          "leftMargin": 55,
+          "name": "NewPanelSprite",
+          "rightMargin": 55,
+          "texture": "Borders.png",
+          "tiled": false,
+          "topMargin": 155,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 535,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Dialogue",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [
+            {
+              "name": "dialogueArray",
+              "type": "array",
+              "children": [
+                {
+                  "type": "string",
+                  "value": ". . ."
+                },
+                {
+                  "type": "string",
+                  "value": "You hear a knock on the door."
+                },
+                {
+                  "type": "string",
+                  "value": "As soon as you open it, one of your patients comes stumbling in, their face clammy and slick with sweat."
+                },
+                {
+                  "type": "string",
+                  "value": "\"Doc, you've... You've gotta help me! I feel like I'm going crazy!\""
+                },
+                {
+                  "type": "string",
+                  "value": "They sit down, shuddering."
+                },
+                {
+                  "type": "string",
+                  "value": "\"What seems to be the problem?\" "
+                },
+                {
+                  "type": "string",
+                  "value": "\"Ever since my dad died, I keep hearing these... voices! They won't stop... Please, make them stop...\""
+                },
+                {
+                  "type": "string",
+                  "value": "\"...I understand. Would you be interested in receiving some experimental treatment?\""
+                },
+                {
+                  "type": "string",
+                  "value": "\"...As long as it'll help? Anything. I just... I need help. Please.\""
+                },
+                {
+                  "type": "string",
+                  "value": "\"Understood. Now, close your eyes...\""
+                },
+                {
+                  "type": "string",
+                  "value": "..."
+                }
+              ]
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "string": ". . . ",
+          "font": "8c9a07c662ceae43dd999872f6bd6916cb95b58c2ae373fd0a8aa58b91ce7c43_Roboto-BoldItalic.ttf",
+          "textAlignment": "left",
+          "characterSize": 30,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": ". . . ",
+            "font": "8c9a07c662ceae43dd999872f6bd6916cb95b58c2ae373fd0a8aa58b91ce7c43_Roboto-BoldItalic.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 30,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Name",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [
+            {
+              "name": "nameArray",
+              "type": "array",
+              "children": [
+                {
+                  "type": "string",
+                  "value": "..."
+                },
+                {
+                  "type": "string",
+                  "value": "..."
+                },
+                {
+                  "type": "string",
+                  "value": "..."
+                },
+                {
+                  "type": "string",
+                  "value": "Patient"
+                },
+                {
+                  "type": "string",
+                  "value": "..."
+                },
+                {
+                  "type": "string",
+                  "value": "Psych"
+                },
+                {
+                  "type": "string",
+                  "value": "Patient"
+                },
+                {
+                  "type": "string",
+                  "value": "Psych"
+                },
+                {
+                  "type": "string",
+                  "value": "Patient"
+                },
+                {
+                  "type": "string",
+                  "value": "Psych"
+                },
+                {
+                  "type": "string",
+                  "value": "..."
+                }
+              ]
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "string": "",
+          "font": "8c9a07c662ceae43dd999872f6bd6916cb95b58c2ae373fd0a8aa58b91ce7c43_Roboto-BoldItalic.ttf",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "",
+            "font": "8c9a07c662ceae43dd999872f6bd6916cb95b58c2ae373fd0a8aa58b91ce7c43_Roboto-BoldItalic.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "fadeBox",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "fade",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "fade",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Psych",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "front",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\psychatrist_sprite_cutscene.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 185,
+                            "y": 8
+                          },
+                          {
+                            "x": 722,
+                            "y": 8
+                          },
+                          {
+                            "x": 722,
+                            "y": 1000
+                          },
+                          {
+                            "x": 185,
+                            "y": 1000
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "back",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\psychatrist_sprite_cutscene.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 185,
+                            "y": 8
+                          },
+                          {
+                            "x": 722,
+                            "y": 8
+                          },
+                          {
+                            "x": 722,
+                            "y": 1000
+                          },
+                          {
+                            "x": 185,
+                            "y": 1000
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "background"
+          },
+          {
+            "objectName": "Patient"
+          },
+          {
+            "objectName": "Psych"
+          },
+          {
+            "objectName": "NewPanelSprite"
+          },
+          {
+            "objectName": "Dialogue"
+          },
+          {
+            "objectName": "fadeBox"
+          },
+          {
+            "objectName": "Name"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "fadeBox",
+                "Tween",
+                "\"fadeout\"",
+                "0",
+                "\"linear\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Patient",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Psych",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "dialogueIndex",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Dialogue",
+                "Text",
+                "=",
+                "Dialogue.dialogueArray[dialogueIndex]"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Name",
+                "Text",
+                "=",
+                "Name.nameArray[dialogueIndex]"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "dialogueIndex",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Patient",
+                    "Tween",
+                    "\"fadein\"",
+                    "255",
+                    "\"linear\"",
+                    "1",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "dialogueIndex",
+                    "=",
+                    "10"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "fadeBox",
+                    "Tween",
+                    "\"fadein\"",
+                    "255",
+                    "\"linear\"",
+                    "1",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "Name",
+                    "Text",
+                    "=",
+                    "\"Patient\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Psych",
+                    "Tween",
+                    "\"fadein\"",
+                    "0",
+                    "\"linear\"",
+                    ".25",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Patient",
+                    "Tween",
+                    "\"fadein\"",
+                    "255",
+                    "\"linear\"",
+                    ".5",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "Name",
+                    "Text",
+                    "=",
+                    "\"Psych\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Psych",
+                    "Tween",
+                    "\"fadein\"",
+                    "255",
+                    "\"linear\"",
+                    ".25",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Patient",
+                    "Tween",
+                    "\"fadein\"",
+                    "0",
+                    "\"linear\"",
+                    ".5",
+                    "no"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::Value"
+              },
+              "parameters": [
+                "fadeBox",
+                "Opacity",
+                "=",
+                "255"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "dialogueIndex",
+                ">",
+                "9"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Puzzle1\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "FlashTransitionPainter",
+          "type": "FlashTransitionPainter::FlashTransitionPainter"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    },
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
@@ -5530,14 +6678,6 @@
                     "\"Forward\"",
                     "",
                     ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
                   ]
                 },
                 {
@@ -11432,22 +12572,6 @@
       "instances": [
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 1344,
-          "layer": "",
-          "name": "Floor",
-          "persistentUuid": "15a3b7f4-f78f-4898-9037-58d9fc07eab8",
-          "width": 2112,
-          "x": -96,
-          "y": -96,
-          "zOrder": -200,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -12528,75 +13652,11 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Wall",
-          "persistentUuid": "1b0e53de-6727-408e-9940-8e9c9e940194",
-          "width": 0,
-          "x": 1152,
-          "y": 768,
-          "zOrder": 108,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Wall",
-          "persistentUuid": "7e83839b-fafc-4063-b5ba-7a7c97f4d9c0",
-          "width": 0,
-          "x": 864,
-          "y": 960,
-          "zOrder": 109,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Wall",
-          "persistentUuid": "dccfc2fd-c593-478f-8cfe-57f726162176",
-          "width": 0,
-          "x": 1152,
-          "y": 672,
-          "zOrder": 115,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Wall",
-          "persistentUuid": "ce698640-a6b4-4106-a49b-c86df586981a",
-          "width": 0,
-          "x": 1152,
-          "y": 864,
-          "zOrder": 116,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
           "name": "Entity",
           "persistentUuid": "26d3f40f-a323-43d6-86fd-bfef7eb634e3",
           "width": 0,
-          "x": 96,
-          "y": 960,
+          "x": 480,
+          "y": 96,
           "zOrder": 119,
           "numberProperties": [],
           "stringProperties": [],
@@ -12604,34 +13664,16 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 768,
+          "customSize": false,
+          "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "CollisionDetect",
-          "persistentUuid": "882013ff-9b28-46d5-a708-53085bd47570",
-          "width": 96,
-          "x": 864,
-          "y": 288,
-          "zOrder": 300,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 960,
-          "keepRatio": true,
-          "layer": "",
-          "name": "CollisionDetect",
-          "persistentUuid": "127329b8-df44-4c4c-9a04-95ee2276a2c7",
-          "width": 96,
-          "x": 1152,
-          "y": 96,
-          "zOrder": 300,
+          "name": "Wall",
+          "persistentUuid": "ab9fc78a-b4a1-4426-be7c-6bda65cd64b4",
+          "width": 0,
+          "x": 384,
+          "y": 192,
+          "zOrder": 120,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -12643,10 +13685,658 @@
           "keepRatio": true,
           "layer": "",
           "name": "Wall",
-          "persistentUuid": "956770b7-b3e3-445e-bdb4-671f68eec165",
+          "persistentUuid": "171cf784-5b39-4d08-a0c8-f233d5f8a763",
           "width": 0,
-          "x": 192,
+          "x": 384,
+          "y": 96,
+          "zOrder": 121,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Wall",
+          "persistentUuid": "c99a3d85-f22b-49e4-ab14-eac48810adef",
+          "width": 0,
+          "x": 384,
           "y": 288,
+          "zOrder": 122,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Wall",
+          "persistentUuid": "7cce2e0c-b106-4c95-b55b-29ba2e777907",
+          "width": 0,
+          "x": 384,
+          "y": 384,
+          "zOrder": 122,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Wall",
+          "persistentUuid": "ec126410-c28b-4310-bb64-a235fa89fe1c",
+          "width": 0,
+          "x": 384,
+          "y": 480,
+          "zOrder": 122,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Wall",
+          "persistentUuid": "e9cff333-caba-424d-a6a7-341eebd21c56",
+          "width": 0,
+          "x": 384,
+          "y": 672,
+          "zOrder": 122,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Wall",
+          "persistentUuid": "21df103c-f23b-4664-bffa-42c9e33364ec",
+          "width": 0,
+          "x": 576,
+          "y": 672,
+          "zOrder": 122,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Wall",
+          "persistentUuid": "c916d444-9596-4ed0-99ed-7a79a02b81e7",
+          "width": 0,
+          "x": 672,
+          "y": 672,
+          "zOrder": 122,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Wall",
+          "persistentUuid": "60ab00b6-2a32-45a0-9974-905d67f52e9e",
+          "width": 0,
+          "x": 768,
+          "y": 672,
+          "zOrder": 122,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Wall",
+          "persistentUuid": "44484903-f21a-4d71-9fde-e196eba2286e",
+          "width": 0,
+          "x": 864,
+          "y": 672,
+          "zOrder": 122,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Wall",
+          "persistentUuid": "c080a6ba-4deb-48c8-ba9f-ea028458cb47",
+          "width": 0,
+          "x": 864,
+          "y": 768,
+          "zOrder": 122,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Wall",
+          "persistentUuid": "ebb290ac-bce0-4ed4-b360-69de23515f08",
+          "width": 0,
+          "x": 864,
+          "y": 864,
+          "zOrder": 122,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Wall",
+          "persistentUuid": "8a1e1d78-6d51-40ed-9ff7-54cd083c4fbd",
+          "width": 0,
+          "x": 864,
+          "y": 960,
+          "zOrder": 122,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Wall",
+          "persistentUuid": "b6590440-23e9-43d9-9f00-d7eb9af2f434",
+          "width": 0,
+          "x": 1056,
+          "y": 960,
+          "zOrder": 122,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Wall",
+          "persistentUuid": "5a4ad015-beb2-4352-8ff7-8ba232a250e8",
+          "width": 0,
+          "x": 1056,
+          "y": 864,
+          "zOrder": 122,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Wall",
+          "persistentUuid": "f8bcd935-5b60-4a6c-b84c-81e82413225c",
+          "width": 0,
+          "x": 1056,
+          "y": 768,
+          "zOrder": 122,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Wall",
+          "persistentUuid": "1036e7ab-44f9-465d-a64f-737ec74f6801",
+          "width": 0,
+          "x": 1056,
+          "y": 672,
+          "zOrder": 122,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Wall",
+          "persistentUuid": "edeb25c5-6972-4390-9cf6-6088ab1ee831",
+          "width": 0,
+          "x": 1056,
+          "y": 384,
+          "zOrder": 122,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Wall",
+          "persistentUuid": "93dc5fea-d6be-49b9-8732-a5ba256d4130",
+          "width": 0,
+          "x": 1056,
+          "y": 480,
+          "zOrder": 122,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Wall",
+          "persistentUuid": "526e539b-9900-49ad-94f2-b233b233b70b",
+          "width": 0,
+          "x": 960,
+          "y": 480,
+          "zOrder": 122,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Wall",
+          "persistentUuid": "e8ae62d3-74f3-4f58-9ca4-bfc39802cd20",
+          "width": 0,
+          "x": 864,
+          "y": 480,
+          "zOrder": 122,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Wall",
+          "persistentUuid": "26f352ef-256c-4215-9881-d761e37c5776",
+          "width": 0,
+          "x": 768,
+          "y": 480,
+          "zOrder": 122,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Wall",
+          "persistentUuid": "f03b6117-ec81-491f-a395-3799d0b3813e",
+          "width": 0,
+          "x": 576,
+          "y": 384,
+          "zOrder": 122,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Wall",
+          "persistentUuid": "722ecf9b-fe52-43f1-8a35-f1d9817e0796",
+          "width": 0,
+          "x": 576,
+          "y": 96,
+          "zOrder": 122,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Wall",
+          "persistentUuid": "87875b1e-9b10-4d2a-b28b-8d5603e08223",
+          "width": 0,
+          "x": 1056,
+          "y": 192,
+          "zOrder": 122,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Wall",
+          "persistentUuid": "2e477300-8b0c-4f25-b445-4d1edf0e4f36",
+          "width": 0,
+          "x": 1056,
+          "y": 96,
+          "zOrder": 122,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Wall",
+          "persistentUuid": "abc6e177-aae6-4e1f-be70-ad70d94f1e50",
+          "width": 0,
+          "x": 672,
+          "y": 384,
+          "zOrder": 122,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Wall",
+          "persistentUuid": "1bfc3f43-e16b-428b-9481-98eafc5218fd",
+          "width": 0,
+          "x": 672,
+          "y": 480,
+          "zOrder": 122,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Wall",
+          "persistentUuid": "1cf20c92-b85f-4f76-be03-ff4c6ff50b9d",
+          "width": 0,
+          "x": 384,
+          "y": 576,
+          "zOrder": 122,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Wall",
+          "persistentUuid": "81deae85-3b60-4a35-9847-2d58c990c203",
+          "width": 0,
+          "x": 576,
+          "y": 192,
+          "zOrder": 122,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Wall",
+          "persistentUuid": "5c5f5fed-300e-48dd-9889-a71bef75f28e",
+          "width": 0,
+          "x": 1056,
+          "y": 288,
+          "zOrder": 122,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Wall",
+          "persistentUuid": "d0f9d3a7-80db-4932-ae72-0e203739b64e",
+          "width": 0,
+          "x": 576,
+          "y": 288,
+          "zOrder": 122,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Turn_Block",
+          "persistentUuid": "b4566574-e8b9-4963-bd0d-2eae70f4d772",
+          "width": 0,
+          "x": 1248,
+          "y": 192,
+          "zOrder": 123,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Turn_Block",
+          "persistentUuid": "db5da8f5-a441-4d71-97a7-4d3fda57a9b4",
+          "width": 0,
+          "x": 1632,
+          "y": 192,
+          "zOrder": 124,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1344,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floor",
+          "persistentUuid": "7bd0c580-b36b-45e7-8b8c-a3ce3f0d9de7",
+          "width": 2112,
+          "x": -96,
+          "y": -96,
+          "zOrder": -400,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 672,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CollisionDetect",
+          "persistentUuid": "460e991e-5df5-46b0-a2b3-264751a9e68f",
+          "width": 96,
+          "x": 384,
+          "y": 96,
+          "zOrder": 125,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 384,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CollisionDetect",
+          "persistentUuid": "71f10efc-9fe3-40ea-9d73-895a59ffa3e3",
+          "width": 96,
+          "x": 576,
+          "y": 96,
+          "zOrder": 125,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 480,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CollisionDetect",
+          "persistentUuid": "8f635197-b974-4d27-81c3-9fbadfb0e2cd",
+          "width": 96,
+          "x": 1056,
+          "y": 96,
+          "zOrder": 125,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 384,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CollisionDetect",
+          "persistentUuid": "84dd41c7-31d9-42ee-be49-3faa3d3a184b",
+          "width": 96,
+          "x": 1056,
+          "y": 672,
+          "zOrder": 125,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 384,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CollisionDetect",
+          "persistentUuid": "a449aab1-bb7d-4a46-9aac-f37aca056ab8",
+          "width": 96,
+          "x": 864,
+          "y": 672,
+          "zOrder": 125,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CollisionDetect",
+          "persistentUuid": "e4436d89-8528-44eb-a1a5-a2f6273b727c",
+          "width": 288,
+          "x": 576,
+          "y": 672,
+          "zOrder": 125,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CollisionDetect",
+          "persistentUuid": "2463c65a-603d-4231-b5a3-5a2efa5f27e9",
+          "width": 384,
+          "x": 672,
+          "y": 480,
           "zOrder": 125,
           "numberProperties": [],
           "stringProperties": [],
@@ -12658,671 +14348,12 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Wall",
-          "persistentUuid": "40c3a796-67c5-4a56-a431-a0394589fa7e",
-          "width": 0,
-          "x": 288,
-          "y": 288,
-          "zOrder": 126,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Wall",
-          "persistentUuid": "b9a30386-1370-4855-b45c-74c1bb8ef64e",
-          "width": 0,
-          "x": 384,
-          "y": 288,
-          "zOrder": 127,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Wall",
-          "persistentUuid": "3367075c-e959-474a-9765-d3da5e654a10",
-          "width": 0,
-          "x": 480,
-          "y": 288,
-          "zOrder": 128,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Wall",
-          "persistentUuid": "84ac91bc-6e50-4804-8a8b-9f22550f73f1",
-          "width": 0,
-          "x": 576,
-          "y": 288,
-          "zOrder": 129,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Wall",
-          "persistentUuid": "17e3e21f-8ff7-477b-b1a5-b445b1365e22",
+          "name": "CollisionDetect",
+          "persistentUuid": "3234ea49-d9d4-4f74-a6df-63fbe2ae62c7",
           "width": 0,
           "x": 672,
-          "y": 288,
-          "zOrder": 130,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Wall",
-          "persistentUuid": "d6fbc757-170c-4d4d-a35b-371082a7b871",
-          "width": 0,
-          "x": 768,
-          "y": 288,
-          "zOrder": 131,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Wall",
-          "persistentUuid": "ad2995f2-0c3a-40b8-8327-e703e8658f1b",
-          "width": 0,
-          "x": 864,
-          "y": 288,
-          "zOrder": 132,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Wall",
-          "persistentUuid": "0498a239-49a0-4473-be04-c882d8ec0485",
-          "width": 0,
-          "x": 864,
           "y": 384,
-          "zOrder": 133,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Wall",
-          "persistentUuid": "a31db004-37d2-49b6-b681-ca3280966810",
-          "width": 0,
-          "x": 864,
-          "y": 480,
-          "zOrder": 134,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Wall",
-          "persistentUuid": "5ff1bd58-73d3-4344-a6d5-3c659e46ab98",
-          "width": 0,
-          "x": 864,
-          "y": 576,
-          "zOrder": 135,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Wall",
-          "persistentUuid": "8a0731a9-60c0-4407-a1f3-291e98d026bc",
-          "width": 0,
-          "x": 864,
-          "y": 672,
-          "zOrder": 136,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Turn_Block",
-          "persistentUuid": "fa5f9eb0-0d30-4617-9b50-f643eb61a1e9",
-          "width": 0,
-          "x": 96,
-          "y": 96,
-          "zOrder": 137,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Wall",
-          "persistentUuid": "2599da29-fee4-46f7-a1ac-9c443148db0a",
-          "width": 0,
-          "x": 192,
-          "y": 384,
-          "zOrder": 138,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Wall",
-          "persistentUuid": "79d796db-a086-4acb-9f72-5d4d45340502",
-          "width": 0,
-          "x": 192,
-          "y": 480,
-          "zOrder": 139,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Wall",
-          "persistentUuid": "ff73fd75-1d9c-4d48-8504-8a8dcd0b10a6",
-          "width": 0,
-          "x": 192,
-          "y": 576,
-          "zOrder": 140,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Wall",
-          "persistentUuid": "0a027209-5811-418d-8aa8-35f0fb13e552",
-          "width": 0,
-          "x": 192,
-          "y": 672,
-          "zOrder": 141,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Wall",
-          "persistentUuid": "abadf39e-5a83-4aa2-a508-6c5b24469d6c",
-          "width": 0,
-          "x": 192,
-          "y": 768,
-          "zOrder": 142,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Wall",
-          "persistentUuid": "44c67f18-6394-43cb-aa5d-ab955f1453bd",
-          "width": 0,
-          "x": 192,
-          "y": 864,
-          "zOrder": 143,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Wall",
-          "persistentUuid": "c4be9d18-8c3b-417c-ab7b-ebe69f880b6a",
-          "width": 0,
-          "x": 192,
-          "y": 960,
-          "zOrder": 144,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Wall",
-          "persistentUuid": "eed9dd00-abbb-4a1d-ba63-93178101dec6",
-          "width": 0,
-          "x": 864,
-          "y": 864,
-          "zOrder": 145,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Wall",
-          "persistentUuid": "6744e11d-514d-45b9-b72f-d2febd6a1446",
-          "width": 0,
-          "x": 864,
-          "y": 768,
-          "zOrder": 146,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Wall",
-          "persistentUuid": "6df05d33-1466-4bf0-9c36-e9b2c7305885",
-          "width": 0,
-          "x": 1152,
-          "y": 960,
-          "zOrder": 147,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Turn_Block",
-          "persistentUuid": "ccac8c13-eaba-4fe6-b8a7-8be098ebe244",
-          "width": 0,
-          "x": 1056,
-          "y": 768,
-          "zOrder": 148,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Wall",
-          "persistentUuid": "42efbfc7-1207-475a-83d7-5355d7d13eed",
-          "width": 0,
-          "x": 1152,
-          "y": 480,
-          "zOrder": 149,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Wall",
-          "persistentUuid": "c5f191d9-cbbf-4add-85ab-403b0dccf31a",
-          "width": 0,
-          "x": 1152,
-          "y": 576,
-          "zOrder": 150,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Wall",
-          "persistentUuid": "32e09696-696f-4262-96ff-9088919b0190",
-          "width": 0,
-          "x": 1152,
-          "y": 384,
-          "zOrder": 150,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Wall",
-          "persistentUuid": "6760e659-a000-44a5-b2f2-15a777f13080",
-          "width": 0,
-          "x": 1152,
-          "y": 288,
-          "zOrder": 150,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Wall",
-          "persistentUuid": "f933def8-d3bc-406b-8d18-f87e970a8590",
-          "width": 0,
-          "x": 1152,
-          "y": 192,
-          "zOrder": 150,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Wall",
-          "persistentUuid": "3dbb9f79-ca1e-4a3f-9c0a-5a1fc49e6166",
-          "width": 0,
-          "x": 1152,
-          "y": 96,
-          "zOrder": 150,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 768,
-          "keepRatio": true,
-          "layer": "",
-          "name": "CollisionDetect",
-          "persistentUuid": "13efbdf5-6c6f-4450-be0f-ec6d5471185f",
-          "width": 96,
-          "x": 192,
-          "y": 288,
-          "zOrder": 301,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 96,
-          "keepRatio": true,
-          "layer": "",
-          "name": "CollisionDetect",
-          "persistentUuid": "7051b77c-4e8c-4602-be60-26c4d7da380b",
-          "width": 576,
-          "x": 288,
-          "y": 288,
-          "zOrder": 302,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Wall",
-          "persistentUuid": "b367171d-f8e1-4854-8bd8-17a9685178f1",
-          "width": 0,
-          "x": 192,
-          "y": 96,
-          "zOrder": 303,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Wall",
-          "persistentUuid": "6749239b-9e7a-42b8-b909-8aa5e6db7ee1",
-          "width": 0,
-          "x": 288,
-          "y": 96,
-          "zOrder": 304,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Wall",
-          "persistentUuid": "2c755a46-0478-4a47-8293-594242a8fa7d",
-          "width": 0,
-          "x": 384,
-          "y": 96,
-          "zOrder": 305,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Wall",
-          "persistentUuid": "93df0819-d591-49c8-b9f5-0a7b742aa3c0",
-          "width": 0,
-          "x": 480,
-          "y": 96,
-          "zOrder": 306,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Wall",
-          "persistentUuid": "a2058495-d54f-48c2-b9fb-00358fbcfb2f",
-          "width": 0,
-          "x": 576,
-          "y": 96,
-          "zOrder": 307,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Wall",
-          "persistentUuid": "fd48cb14-bf70-44fe-87e8-4e093435c23e",
-          "width": 0,
-          "x": 768,
-          "y": 96,
-          "zOrder": 308,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Wall",
-          "persistentUuid": "2f521007-657a-414e-aa18-7f6c4625c489",
-          "width": 0,
-          "x": 672,
-          "y": 96,
-          "zOrder": 309,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Wall",
-          "persistentUuid": "01c8e681-0099-4d39-a273-155b5d9d4d44",
-          "width": 0,
-          "x": 864,
-          "y": 96,
-          "zOrder": 310,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Wall",
-          "persistentUuid": "ef047f92-e9c1-4ea2-89fa-7503e8e20ecb",
-          "width": 0,
-          "x": 960,
-          "y": 96,
-          "zOrder": 311,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Wall",
-          "persistentUuid": "3ecfef0f-ed72-48aa-a33c-5ebe7cbc37f2",
-          "width": 0,
-          "x": 1056,
-          "y": 96,
-          "zOrder": 312,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 96,
-          "keepRatio": true,
-          "layer": "",
-          "name": "CollisionDetect",
-          "persistentUuid": "00dcdaf9-e966-4315-aaea-31a077a159ec",
-          "width": 960,
-          "x": 192,
-          "y": 96,
-          "zOrder": 313,
+          "zOrder": 125,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -17034,7 +18065,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.26538580928975714,
+        "zoomFactor": 0.2324157023072396,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -18157,8 +19188,8 @@
           "name": "Entity",
           "persistentUuid": "26d3f40f-a323-43d6-86fd-bfef7eb634e3",
           "width": 0,
-          "x": 96,
-          "y": 960,
+          "x": 960,
+          "y": 96,
           "zOrder": 119,
           "numberProperties": [],
           "stringProperties": [],
@@ -18177,6 +19208,470 @@
           "x": -96,
           "y": -96,
           "zOrder": -400,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Void",
+          "persistentUuid": "912b1e13-b4e1-4ff6-a5e2-0445d8812624",
+          "width": 0,
+          "x": 768,
+          "y": 960,
+          "zOrder": 120,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Void",
+          "persistentUuid": "475aa90f-7c1a-4ad9-9113-a4e62b02229f",
+          "width": 0,
+          "x": 768,
+          "y": 864,
+          "zOrder": 121,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Void",
+          "persistentUuid": "e9749109-b303-4b55-b54d-72fd37631905",
+          "width": 0,
+          "x": 768,
+          "y": 768,
+          "zOrder": 122,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Void",
+          "persistentUuid": "12f433b3-ad19-411c-91be-bbc9dd3f5cac",
+          "width": 0,
+          "x": 1152,
+          "y": 864,
+          "zOrder": 123,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Void",
+          "persistentUuid": "4c3c79c7-e457-4c65-9943-aac10f77467c",
+          "width": 0,
+          "x": 1152,
+          "y": 960,
+          "zOrder": 123,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Void",
+          "persistentUuid": "6c777cf0-6d6b-4477-b1ba-4d2ad6a9e342",
+          "width": 0,
+          "x": 1152,
+          "y": 768,
+          "zOrder": 123,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Void",
+          "persistentUuid": "6a7b4da1-9aad-40ec-9f5f-e0bafa1aa948",
+          "width": 0,
+          "x": 1152,
+          "y": 672,
+          "zOrder": 123,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Void",
+          "persistentUuid": "3c07b795-3f49-44ba-838f-2dd3f6f6c850",
+          "width": 0,
+          "x": 1152,
+          "y": 576,
+          "zOrder": 123,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Void",
+          "persistentUuid": "3a517545-90b8-4b68-9b6c-4f41bb24a212",
+          "width": 0,
+          "x": 1152,
+          "y": 480,
+          "zOrder": 123,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Void",
+          "persistentUuid": "3c20c63e-5251-406a-9b3a-8bf2c82fbfbb",
+          "width": 0,
+          "x": 1152,
+          "y": 384,
+          "zOrder": 123,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Void",
+          "persistentUuid": "23426a68-c2ad-4847-b650-0cb58f276793",
+          "width": 0,
+          "x": 1152,
+          "y": 288,
+          "zOrder": 123,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Void",
+          "persistentUuid": "80b840bc-a25d-49a4-8a92-e04cac65422a",
+          "width": 0,
+          "x": 1152,
+          "y": 192,
+          "zOrder": 123,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Void",
+          "persistentUuid": "86cbc242-f001-4c1a-99af-f73a7234b191",
+          "width": 0,
+          "x": 1152,
+          "y": 96,
+          "zOrder": 123,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Void",
+          "persistentUuid": "a9f75011-a3b7-45a3-aad1-cda84306ab57",
+          "width": 0,
+          "x": 768,
+          "y": 672,
+          "zOrder": 123,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Void",
+          "persistentUuid": "0828e5c9-1e0f-4be2-a6e9-8992235a7e49",
+          "width": 0,
+          "x": 768,
+          "y": 576,
+          "zOrder": 123,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Void",
+          "persistentUuid": "a8cefb59-a124-43ca-8fe9-24d64adff0b5",
+          "width": 0,
+          "x": 768,
+          "y": 480,
+          "zOrder": 123,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Void",
+          "persistentUuid": "ac0e0639-6b22-4fe9-af94-898ef3a2e60f",
+          "width": 0,
+          "x": 768,
+          "y": 384,
+          "zOrder": 123,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Void",
+          "persistentUuid": "645da3b9-84fd-4cea-9968-b4e0f170af70",
+          "width": 0,
+          "x": 768,
+          "y": 288,
+          "zOrder": 123,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Void",
+          "persistentUuid": "ab12fba7-358f-4f49-8994-96c2e49a6cd7",
+          "width": 0,
+          "x": 768,
+          "y": 192,
+          "zOrder": 123,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Void",
+          "persistentUuid": "9f1dc771-b8fd-4975-b50d-f816289a062d",
+          "width": 0,
+          "x": 768,
+          "y": 96,
+          "zOrder": 123,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Void",
+          "persistentUuid": "bf25a625-63c7-42d5-9cf6-44cdc6dfe9c5",
+          "width": 0,
+          "x": 864,
+          "y": 480,
+          "zOrder": 123,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Void",
+          "persistentUuid": "4901e319-01a8-4e5f-98ec-596435146f3e",
+          "width": 0,
+          "x": 960,
+          "y": 480,
+          "zOrder": 123,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Void",
+          "persistentUuid": "0c4bedda-4123-489d-b4e9-fedd6dfda9cd",
+          "width": 0,
+          "x": 1056,
+          "y": 480,
+          "zOrder": 123,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Block",
+          "persistentUuid": "41d19392-a5d1-4682-b616-d824f91c881f",
+          "width": 0,
+          "x": 864,
+          "y": 576,
+          "zOrder": 124,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Block",
+          "persistentUuid": "40f4361b-60b2-48bf-842f-2e9b22c0d17e",
+          "width": 0,
+          "x": 1056,
+          "y": 576,
+          "zOrder": 124,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Block",
+          "persistentUuid": "0d82b135-b09b-4c57-89f1-695fb70a1c42",
+          "width": 0,
+          "x": 960,
+          "y": 576,
+          "zOrder": 124,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Block",
+          "persistentUuid": "14838b9f-edd8-4b39-87c9-a9a42891c60c",
+          "width": 0,
+          "x": 864,
+          "y": 768,
+          "zOrder": 124,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Block",
+          "persistentUuid": "bdd93d42-dadf-4dab-ae2f-4e7942bffa5c",
+          "width": 0,
+          "x": 960,
+          "y": 768,
+          "zOrder": 124,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Block",
+          "persistentUuid": "7209822a-11b7-4c66-a49c-67b46dc95497",
+          "width": 0,
+          "x": 1056,
+          "y": 768,
+          "zOrder": 124,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -21684,7 +23179,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Puzzle5\"",
+                    "\"Puzzle10\"",
                     ""
                   ]
                 }
@@ -27002,7 +28497,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Puzzle10\"",
+                    "\"Puzzle6\"",
                     ""
                   ]
                 }
@@ -35576,6 +37071,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Player movement",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -52360,19 +53856,11 @@
                     },
                     {
                       "type": {
-                        "value": "Wait"
-                      },
-                      "parameters": [
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
                         "value": "Scene"
                       },
                       "parameters": [
                         "",
-                        "\"Dialogue End Test\"",
+                        "\"Dialogue Mockup End\"",
                         ""
                       ]
                     }
@@ -52560,8 +54048,8 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Dialogue_32End_32Test",
-      "name": "Dialogue End Test",
+      "mangledName": "Dialogue_32Mockup_32End",
+      "name": "Dialogue Mockup End",
       "r": 209,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -52579,7 +54067,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.41943397827590606,
+        "zoomFactor": 0.32169117647058926,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -52589,9 +54077,6 @@
           "objects": [
             {
               "name": "NewPanelSprite"
-            },
-            {
-              "name": "Dialogue"
             },
             {
               "name": "Name"
@@ -52610,15 +54095,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 2,
-          "height": 917,
+          "depth": 3,
+          "height": 1313,
           "keepRatio": true,
           "layer": "",
           "name": "background",
           "persistentUuid": "573e756e-785a-4a53-bb52-af46bfa7f4e4",
-          "width": 1378,
-          "x": -52,
-          "y": -134,
+          "width": 1973,
+          "x": -17,
+          "y": -40,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -52650,26 +54135,9 @@
           "name": "NewPanelSprite",
           "persistentUuid": "80faf589-bee6-4681-a826-dc105db79209",
           "width": 1050,
-          "x": 55,
-          "y": 424,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 35,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Dialogue",
-          "persistentUuid": "5dc5953e-9a5b-468a-85ed-bdaa5d071dd7",
-          "width": 874,
-          "x": 135,
-          "y": 519,
-          "zOrder": 4,
+          "x": 298,
+          "y": 745,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -52683,9 +54151,9 @@
           "name": "Name",
           "persistentUuid": "6ff10c9d-b9ad-4fcf-9330-6341caf8a6d7",
           "width": 0,
-          "x": 215,
-          "y": 461,
-          "zOrder": 5,
+          "x": 368,
+          "y": 817,
+          "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -52694,15 +54162,65 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 1217,
+          "height": 1350,
           "keepRatio": true,
           "layer": "",
           "name": "fadeBox",
           "persistentUuid": "13c27327-97b2-4e46-97b9-aa3a1aa90036",
-          "width": 1818,
-          "x": -274,
-          "y": -258,
+          "width": 2017,
+          "x": -46,
+          "y": 1336,
           "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 1809,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Patient",
+          "persistentUuid": "717bf69f-1e15-4aa1-b160-ea559a5d6642",
+          "width": 598,
+          "x": 1259,
+          "y": 74,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1269,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Psych",
+          "persistentUuid": "783e60ec-9106-49cc-97ff-271f04e779bf",
+          "width": 1247,
+          "x": 973,
+          "y": 94,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Dialogue",
+          "persistentUuid": "62e2ba75-4e4a-4093-9adb-398ab97537c4",
+          "width": 0,
+          "x": 366,
+          "y": 865,
+          "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -52772,7 +54290,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "Patient1",
+          "name": "Patient",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -52785,7 +54303,7 @@
           ],
           "animations": [
             {
-              "name": "",
+              "name": "Patient",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -52854,76 +54372,6 @@
           "assetStoreId": "",
           "bold": false,
           "italic": false,
-          "name": "Dialogue",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [
-            {
-              "name": "dialogueArray",
-              "type": "array",
-              "children": [
-                {
-                  "type": "string",
-                  "value": "Wow doc!"
-                },
-                {
-                  "type": "string",
-                  "value": "The voices are gone!"
-                },
-                {
-                  "type": "string",
-                  "value": "Man you sure are a great, awesome puzzling you did up there in my noggin."
-                },
-                {
-                  "type": "string",
-                  "value": "Only one thing..."
-                },
-                {
-                  "type": "string",
-                  "value": "What's my name? I forgot..."
-                }
-              ]
-            }
-          ],
-          "effects": [],
-          "behaviors": [],
-          "string": ". . . ",
-          "font": "8c9a07c662ceae43dd999872f6bd6916cb95b58c2ae373fd0a8aa58b91ce7c43_Roboto-BoldItalic.ttf",
-          "textAlignment": "left",
-          "characterSize": 30,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": ". . . ",
-            "font": "8c9a07c662ceae43dd999872f6bd6916cb95b58c2ae373fd0a8aa58b91ce7c43_Roboto-BoldItalic.ttf",
-            "textAlignment": "left",
-            "verticalTextAlignment": "top",
-            "characterSize": 30,
-            "lineHeight": 0,
-            "color": "0;0;0"
-          }
-        },
-        {
-          "assetStoreId": "",
-          "bold": false,
-          "italic": false,
           "name": "Name",
           "smoothed": true,
           "type": "TextObject::Text",
@@ -52952,6 +54400,10 @@
                 {
                   "type": "string",
                   "value": "Patient"
+                },
+                {
+                  "type": "string",
+                  "value": ""
                 }
               ]
             }
@@ -53055,6 +54507,193 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Psych",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "front",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\psychatrist_sprite_cutscene.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 185,
+                            "y": 8
+                          },
+                          {
+                            "x": 722,
+                            "y": 8
+                          },
+                          {
+                            "x": 722,
+                            "y": 1000
+                          },
+                          {
+                            "x": 185,
+                            "y": 1000
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "back",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\psychatrist_sprite_cutscene.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 185,
+                            "y": 8
+                          },
+                          {
+                            "x": 722,
+                            "y": 8
+                          },
+                          {
+                            "x": 722,
+                            "y": 1000
+                          },
+                          {
+                            "x": 185,
+                            "y": 1000
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Dialogue",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [
+            {
+              "name": "dialogueArray",
+              "type": "array",
+              "children": [
+                {
+                  "type": "string",
+                  "value": "Wow doc!"
+                },
+                {
+                  "type": "string",
+                  "value": "The voices are gone!"
+                },
+                {
+                  "type": "string",
+                  "value": "Man you sure are a great, awesome puzzling you did up there in my noggin."
+                },
+                {
+                  "type": "string",
+                  "value": "Only one thing..."
+                },
+                {
+                  "type": "string",
+                  "value": "What's my name? I forgot..."
+                },
+                {
+                  "type": "string",
+                  "value": ""
+                }
+              ]
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "string": ". . . ",
+          "font": "8c9a07c662ceae43dd999872f6bd6916cb95b58c2ae373fd0a8aa58b91ce7c43_Roboto-BoldItalic.ttf",
+          "textAlignment": "left",
+          "characterSize": 30,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": ". . . ",
+            "font": "8c9a07c662ceae43dd999872f6bd6916cb95b58c2ae373fd0a8aa58b91ce7c43_Roboto-BoldItalic.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 30,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -53064,7 +54703,10 @@
             "objectName": "background"
           },
           {
-            "objectName": "Patient1"
+            "objectName": "Patient"
+          },
+          {
+            "objectName": "Psych"
           },
           {
             "objectName": "NewPanelSprite"
@@ -53101,7 +54743,7 @@
               "parameters": [
                 "fadeBox",
                 "Tween",
-                "\"fadein\"",
+                "\"fadeout\"",
                 "0",
                 "\"linear\"",
                 "1",
@@ -53113,7 +54755,18 @@
                 "value": "OpacityCapability::OpacityBehavior::SetValue"
               },
               "parameters": [
-                "Patient1",
+                "Patient",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Psych",
                 "Opacity",
                 "=",
                 "0"
@@ -53195,9 +54848,9 @@
                     "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
                   },
                   "parameters": [
-                    "Patient1",
+                    "Patient",
                     "Tween",
-                    "\"fadeout\"",
+                    "\"fadein\"",
                     "255",
                     "\"linear\"",
                     "1",
@@ -53216,7 +54869,7 @@
                   "parameters": [
                     "dialogueIndex",
                     "=",
-                    "4"
+                    "5"
                   ]
                 }
               ],
@@ -53228,10 +54881,102 @@
                   "parameters": [
                     "fadeBox",
                     "Tween",
-                    "\"fadeout\"",
+                    "\"fadein\"",
                     "255",
                     "\"linear\"",
                     "1",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "Name",
+                    "Text",
+                    "=",
+                    "\"Patient\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Psych",
+                    "Tween",
+                    "\"fadein\"",
+                    "0",
+                    "\"linear\"",
+                    ".25",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Patient",
+                    "Tween",
+                    "\"fadein\"",
+                    "255",
+                    "\"linear\"",
+                    ".5",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "Name",
+                    "Text",
+                    "=",
+                    "\"Psych\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Psych",
+                    "Tween",
+                    "\"fadein\"",
+                    "255",
+                    "\"linear\"",
+                    ".25",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Patient",
+                    "Tween",
+                    "\"fadein\"",
+                    "0",
+                    "\"linear\"",
+                    ".5",
                     "no"
                   ]
                 }
@@ -53260,7 +55005,7 @@
               "parameters": [
                 "dialogueIndex",
                 ">",
-                "3"
+                "4"
               ]
             }
           ],
@@ -53627,6 +55372,18 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "9. Death Theme.mp3",
+                "yes",
+                "",
+                ""
+              ]
             }
           ]
         },
@@ -53775,10 +55532,6 @@
       ],
       "behaviorsSharedData": [
         {
-          "name": "Animation",
-          "type": "AnimatableCapability::AnimatableBehavior"
-        },
-        {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
         },
@@ -53793,10 +55546,6 @@
         {
           "name": "Opacity",
           "type": "OpacityCapability::OpacityBehavior"
-        },
-        {
-          "name": "PixelPerfectTopDownMovement",
-          "type": "PixelPerfectMovement::PixelPerfectTopDownMovement"
         },
         {
           "name": "Resizable",
@@ -53813,1138 +55562,6 @@
         {
           "name": "Text",
           "type": "TextContainerCapability::TextContainerBehavior"
-        },
-        {
-          "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
-        }
-      ]
-    },
-    {
-      "b": 209,
-      "disableInputWhenNotFocused": true,
-      "mangledName": "Dialogue_32Mockup",
-      "name": "Dialogue Mockup",
-      "r": 209,
-      "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
-      "title": "",
-      "v": 209,
-      "uiSettings": {
-        "grid": false,
-        "gridType": "rectangular",
-        "gridWidth": 32,
-        "gridHeight": 32,
-        "gridDepth": 32,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
-        "gridOffsetZ": 0,
-        "gridColor": 10401023,
-        "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.17130934511241885,
-        "windowMask": false,
-        "selectedLayer": ""
-      },
-      "objectsGroups": [
-        {
-          "name": "UI Elements",
-          "objects": [
-            {
-              "name": "NewPanelSprite"
-            },
-            {
-              "name": "Dialogue"
-            },
-            {
-              "name": "Name"
-            }
-          ]
-        }
-      ],
-      "variables": [
-        {
-          "name": "dialogueIndex",
-          "type": "number",
-          "value": 0
-        }
-      ],
-      "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 3,
-          "height": 1313,
-          "keepRatio": true,
-          "layer": "",
-          "name": "background",
-          "persistentUuid": "573e756e-785a-4a53-bb52-af46bfa7f4e4",
-          "width": 1973,
-          "x": -17,
-          "y": -40,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Patient1",
-          "persistentUuid": "07db5f39-8728-4852-9e32-79d314052d26",
-          "width": 0,
-          "x": 885,
-          "y": 51,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 256,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewPanelSprite",
-          "persistentUuid": "80faf589-bee6-4681-a826-dc105db79209",
-          "width": 1050,
-          "x": 298,
-          "y": 745,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 35,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Dialogue",
-          "persistentUuid": "5dc5953e-9a5b-468a-85ed-bdaa5d071dd7",
-          "width": 874,
-          "x": 368,
-          "y": 878,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Name",
-          "persistentUuid": "6ff10c9d-b9ad-4fcf-9330-6341caf8a6d7",
-          "width": 0,
-          "x": 368,
-          "y": 817,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 1350,
-          "keepRatio": true,
-          "layer": "",
-          "name": "fadeBox",
-          "persistentUuid": "13c27327-97b2-4e46-97b9-aa3a1aa90036",
-          "width": 2017,
-          "x": -46,
-          "y": 1336,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 2,
-          "height": 1809,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Patient",
-          "persistentUuid": "717bf69f-1e15-4aa1-b160-ea559a5d6642",
-          "width": 598,
-          "x": 1259,
-          "y": 74,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 1269,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Psych",
-          "persistentUuid": "783e60ec-9106-49cc-97ff-271f04e779bf",
-          "width": 1247,
-          "x": 973,
-          "y": 94,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        }
-      ],
-      "objects": [
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "background",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "Office",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "doctor_office_luggage_548133.jpg",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 769,
-                            "y": 0
-                          },
-                          {
-                            "x": 769,
-                            "y": 512
-                          },
-                          {
-                            "x": 0,
-                            "y": 512
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Patient",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Tween",
-              "type": "Tween::TweenBehavior"
-            }
-          ],
-          "animations": [
-            {
-              "name": "Patient",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "SVG_Human_Silhouette.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 359,
-                            "y": 0
-                          },
-                          {
-                            "x": 359,
-                            "y": 1086
-                          },
-                          {
-                            "x": 0,
-                            "y": 1086
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "bottomMargin": 155,
-          "height": 535,
-          "leftMargin": 55,
-          "name": "NewPanelSprite",
-          "rightMargin": 55,
-          "texture": "Borders.png",
-          "tiled": false,
-          "topMargin": 155,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 535,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "assetStoreId": "",
-          "bold": false,
-          "italic": false,
-          "name": "Dialogue",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [
-            {
-              "name": "dialogueArray",
-              "type": "array",
-              "children": [
-                {
-                  "type": "string",
-                  "value": ". . ."
-                },
-                {
-                  "type": "string",
-                  "value": "You hear a knock on the door."
-                },
-                {
-                  "type": "string",
-                  "value": "As soon as you open it, one of your patients comes stumbling in, their face clammy and slick with sweat."
-                },
-                {
-                  "type": "string",
-                  "value": "\"Doc, you've... You've gotta help me! I feel like I'm going crazy!\""
-                },
-                {
-                  "type": "string",
-                  "value": "They sit down, shuddering."
-                },
-                {
-                  "type": "string",
-                  "value": "\"What seems to be the problem?\" "
-                },
-                {
-                  "type": "string",
-                  "value": "\"Ever since my dad died, I keep hearing these... voices! They won't stop... Please, make them stop...\""
-                },
-                {
-                  "type": "string",
-                  "value": "\"...I understand. Would you be interested in receiving some experimental treatment?\""
-                },
-                {
-                  "type": "string",
-                  "value": "\"...As long as it'll help? Anything. I just... I need help. Please.\""
-                },
-                {
-                  "type": "string",
-                  "value": "\"Understood. Now, close your eyes...\""
-                },
-                {
-                  "type": "string",
-                  "value": "..."
-                }
-              ]
-            }
-          ],
-          "effects": [],
-          "behaviors": [],
-          "string": ". . . ",
-          "font": "8c9a07c662ceae43dd999872f6bd6916cb95b58c2ae373fd0a8aa58b91ce7c43_Roboto-BoldItalic.ttf",
-          "textAlignment": "left",
-          "characterSize": 30,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": ". . . ",
-            "font": "8c9a07c662ceae43dd999872f6bd6916cb95b58c2ae373fd0a8aa58b91ce7c43_Roboto-BoldItalic.ttf",
-            "textAlignment": "left",
-            "verticalTextAlignment": "top",
-            "characterSize": 30,
-            "lineHeight": 0,
-            "color": "0;0;0"
-          }
-        },
-        {
-          "assetStoreId": "",
-          "bold": false,
-          "italic": false,
-          "name": "Name",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [
-            {
-              "name": "nameArray",
-              "type": "array",
-              "children": [
-                {
-                  "type": "string",
-                  "value": "..."
-                },
-                {
-                  "type": "string",
-                  "value": "..."
-                },
-                {
-                  "type": "string",
-                  "value": "..."
-                },
-                {
-                  "type": "string",
-                  "value": "Patient"
-                },
-                {
-                  "type": "string",
-                  "value": "..."
-                },
-                {
-                  "type": "string",
-                  "value": "Psych"
-                },
-                {
-                  "type": "string",
-                  "value": "Patient"
-                },
-                {
-                  "type": "string",
-                  "value": "Psych"
-                },
-                {
-                  "type": "string",
-                  "value": "Patient"
-                },
-                {
-                  "type": "string",
-                  "value": "Psych"
-                },
-                {
-                  "type": "string",
-                  "value": "..."
-                }
-              ]
-            }
-          ],
-          "effects": [],
-          "behaviors": [],
-          "string": "",
-          "font": "8c9a07c662ceae43dd999872f6bd6916cb95b58c2ae373fd0a8aa58b91ce7c43_Roboto-BoldItalic.ttf",
-          "textAlignment": "left",
-          "characterSize": 40,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "",
-            "font": "8c9a07c662ceae43dd999872f6bd6916cb95b58c2ae373fd0a8aa58b91ce7c43_Roboto-BoldItalic.ttf",
-            "textAlignment": "left",
-            "verticalTextAlignment": "top",
-            "characterSize": 40,
-            "lineHeight": 0,
-            "color": "0;0;0"
-          }
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "fadeBox",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Tween",
-              "type": "Tween::TweenBehavior"
-            }
-          ],
-          "animations": [
-            {
-              "name": "fade",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "fade",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Psych",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Tween",
-              "type": "Tween::TweenBehavior"
-            }
-          ],
-          "animations": [
-            {
-              "name": "front",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\psychatrist_sprite_cutscene.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 185,
-                            "y": 8
-                          },
-                          {
-                            "x": 722,
-                            "y": 8
-                          },
-                          {
-                            "x": 722,
-                            "y": 1000
-                          },
-                          {
-                            "x": 185,
-                            "y": 1000
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "back",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\psychatrist_sprite_cutscene.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 185,
-                            "y": 8
-                          },
-                          {
-                            "x": 722,
-                            "y": 8
-                          },
-                          {
-                            "x": 722,
-                            "y": 1000
-                          },
-                          {
-                            "x": 185,
-                            "y": 1000
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "objectsFolderStructure": {
-        "folderName": "__ROOT",
-        "children": [
-          {
-            "objectName": "background"
-          },
-          {
-            "objectName": "Patient"
-          },
-          {
-            "objectName": "Psych"
-          },
-          {
-            "objectName": "NewPanelSprite"
-          },
-          {
-            "objectName": "Dialogue"
-          },
-          {
-            "objectName": "fadeBox"
-          },
-          {
-            "objectName": "Name"
-          }
-        ]
-      },
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-              },
-              "parameters": [
-                "fadeBox",
-                "Tween",
-                "\"fadeout\"",
-                "0",
-                "\"linear\"",
-                "1",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "OpacityCapability::OpacityBehavior::SetValue"
-              },
-              "parameters": [
-                "Patient",
-                "Opacity",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "OpacityCapability::OpacityBehavior::SetValue"
-              },
-              "parameters": [
-                "Psych",
-                "Opacity",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "MouseButtonFromTextPressed"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "dialogueIndex",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "Dialogue",
-                "Text",
-                "=",
-                "Dialogue.dialogueArray[dialogueIndex]"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "Name",
-                "Text",
-                "=",
-                "Name.nameArray[dialogueIndex]"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "dialogueIndex",
-                    "=",
-                    "3"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "Patient",
-                    "Tween",
-                    "\"fadein\"",
-                    "255",
-                    "\"linear\"",
-                    "1",
-                    "no"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "dialogueIndex",
-                    "=",
-                    "10"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "fadeBox",
-                    "Tween",
-                    "\"fadein\"",
-                    "255",
-                    "\"linear\"",
-                    "1",
-                    "no"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::Value"
-                  },
-                  "parameters": [
-                    "Name",
-                    "Text",
-                    "=",
-                    "\"Patient\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "Psych",
-                    "Tween",
-                    "\"fadein\"",
-                    "0",
-                    "\"linear\"",
-                    ".25",
-                    "no"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "Patient",
-                    "Tween",
-                    "\"fadein\"",
-                    "255",
-                    "\"linear\"",
-                    ".5",
-                    "no"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::Value"
-                  },
-                  "parameters": [
-                    "Name",
-                    "Text",
-                    "=",
-                    "\"Psych\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "Psych",
-                    "Tween",
-                    "\"fadein\"",
-                    "255",
-                    "\"linear\"",
-                    ".25",
-                    "no"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "Patient",
-                    "Tween",
-                    "\"fadein\"",
-                    "0",
-                    "\"linear\"",
-                    ".5",
-                    "no"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "OpacityCapability::OpacityBehavior::Value"
-              },
-              "parameters": [
-                "fadeBox",
-                "Opacity",
-                "=",
-                "255"
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "dialogueIndex",
-                ">",
-                "9"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Test Area\"",
-                ""
-              ]
-            }
-          ]
-        }
-      ],
-      "layers": [
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera2DPlaneMaxDrawingDistance": 5000,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Ambient Hemisphere Light",
-              "doubleParameters": {
-                "elevation": 40,
-                "intensity": 0.33,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "groundColor": "127;127;127",
-                "skyColor": "255;255;255",
-                "top": "Z+"
-              },
-              "booleanParameters": {}
-            },
-            {
-              "effectType": "Scene3D::DirectionalLight",
-              "name": "3D Sun Light",
-              "doubleParameters": {
-                "distanceFromCamera": 1500,
-                "elevation": 40,
-                "frustumSize": 4000,
-                "intensity": 0.75,
-                "minimumShadowBias": 0,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "color": "255;255;255",
-                "shadowQuality": "medium",
-                "top": "Z+"
-              },
-              "booleanParameters": {
-                "isCastingShadow": true
-              }
-            }
-          ]
-        }
-      ],
-      "behaviorsSharedData": [
-        {
-          "name": "Animation",
-          "type": "AnimatableCapability::AnimatableBehavior"
-        },
-        {
-          "name": "Effect",
-          "type": "EffectCapability::EffectBehavior"
-        },
-        {
-          "name": "FlashTransitionPainter",
-          "type": "FlashTransitionPainter::FlashTransitionPainter"
-        },
-        {
-          "name": "Flippable",
-          "type": "FlippableCapability::FlippableBehavior"
-        },
-        {
-          "name": "Opacity",
-          "type": "OpacityCapability::OpacityBehavior"
-        },
-        {
-          "name": "Resizable",
-          "type": "ResizableCapability::ResizableBehavior"
-        },
-        {
-          "name": "Scale",
-          "type": "ScalableCapability::ScalableBehavior"
-        },
-        {
-          "name": "Text",
-          "type": "TextContainerCapability::TextContainerBehavior"
-        },
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
         }
       ]
     },
@@ -55022,6 +55639,22 @@
           "x": 567,
           "y": 355,
           "zOrder": 82,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "EndGame3",
+          "persistentUuid": "ef6256bd-b4b1-498d-ad3f-2b28e6a05a9a",
+          "width": 0,
+          "x": 575,
+          "y": 731,
+          "zOrder": 83,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -55123,6 +55756,54 @@
             "lineHeight": 0,
             "color": "255;255;255"
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "EndGame3",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ShakeObject_PositionAngle",
+              "type": "ShakeObject::ShakeObject_PositionAngle"
+            }
+          ],
+          "string": "Art by Jade Gardner\nProgramming by John Howarth\nNarrative Design by Charlie Rizzo\nMusic by Aaron Harmon",
+          "font": "3bd40ac788d44626fd640ec67ef04ab0364816b5e8c831f2077bff8805cfe689_Roboto-Bold.ttf",
+          "textAlignment": "center",
+          "characterSize": 50,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Art by Jade Gardner\nProgramming by John Howarth\nNarrative Design by Charlie Rizzo\nMusic by Aaron Harmon",
+            "font": "3bd40ac788d44626fd640ec67ef04ab0364816b5e8c831f2077bff8805cfe689_Roboto-Bold.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 50,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -55133,6 +55814,9 @@
           },
           {
             "objectName": "EndGame2"
+          },
+          {
+            "objectName": "EndGame3"
           }
         ]
       },
@@ -55172,6 +55856,18 @@
                 "1",
                 "\"Circular\"",
                 "\"Backward\"",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "5. Victory Theme.mp3",
+                "yes",
                 "",
                 ""
               ]
